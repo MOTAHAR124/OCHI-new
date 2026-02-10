@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Project Placeholder 04</title>
+  <desc id="desc">Neutral placeholder image for featured project card.</desc>
+  <defs>
+    <linearGradient id="g4" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#4b5563"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#g4)"/>
+  <g fill="#f3f4f6" fill-opacity="0.2">
+    <circle cx="380" cy="420" r="160"/>
+    <circle cx="800" cy="700" r="220"/>
+    <circle cx="1200" cy="500" r="130"/>
+  </g>
+  <text x="120" y="170" fill="#ffffff" font-size="72" font-family="Arial, sans-serif" letter-spacing="8">PREMIUM BLEND</text>
+  <text x="120" y="1040" fill="#d1d5db" font-size="44" font-family="Arial, sans-serif" letter-spacing="3">Investor Presentation</text>
+</svg>
+

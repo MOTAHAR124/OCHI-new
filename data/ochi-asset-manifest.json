@@ -1,0 +1,2273 @@
+{
+  "generatedAt": "2026-02-08T21:38:53.788Z",
+  "source": "https://ochi.design",
+  "totalFound": 453,
+  "totalDownloaded": 451,
+  "images": [
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg",
+      "localPath": "/assets/ochi/001-Homepage-Photo-663x469-bcb2ad47.jpg",
+      "bytes": 35953
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg",
+      "localPath": "/assets/ochi/002-Top-Viewbbcbv-1-1440x921-370e8dd8.jpg",
+      "bytes": 47512
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Salience_Website_cover-663x551.png",
+      "localPath": "/assets/ochi/003-Salience_Website_cover-663x551-d9ce2a51.png",
+      "bytes": 179625
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_0.png",
+      "localPath": "/assets/ochi/004-Med_Website_0-6437931c.png",
+      "bytes": 533595
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/Frame-481692-1-663x551.png",
+      "localPath": "/assets/ochi/005-Frame-481692-1-663x551-c004d7d0.png",
+      "bytes": 61421
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Vise_Front-1-663x551.png",
+      "localPath": "/assets/ochi/006-Vise_Front-1-663x551-f1506fc5.png",
+      "bytes": 121087
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/06/Frame-3898-1-663x551.jpg",
+      "localPath": "/assets/ochi/007-Frame-3898-1-663x551-44587cb1.jpg",
+      "bytes": 17975
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Fyde_Front-1-663x551.png",
+      "localPath": "/assets/ochi/008-Fyde_Front-1-663x551-41f62df9.png",
+      "bytes": 55171
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/ATG_Website_1-663x551.png",
+      "localPath": "/assets/ochi/009-ATG_Website_1-663x551-f851aea2.png",
+      "bytes": 546040
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/Frame-3875-663x551.jpg",
+      "localPath": "/assets/ochi/010-Frame-3875-663x551-a92eae47.jpg",
+      "bytes": 27546
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_1-663x551.png",
+      "localPath": "/assets/ochi/011-CS_Website_1-663x551-316e6bbb.png",
+      "bytes": 120022
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB-Front-4-663x551.png",
+      "localPath": "/assets/ochi/012-PB-Front-4-663x551-46c476aa.png",
+      "bytes": 44821
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/02/William-Barnes-1-300x300.png",
+      "localPath": "/assets/ochi/013-William-Barnes-1-300x300-75b78a6a.png",
+      "bytes": 66959
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/06/Becky-300x300.png",
+      "localPath": "/assets/ochi/014-Becky-300x300-f7e73a08.png",
+      "bytes": 29577
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Nina.jpg.png",
+      "localPath": "/assets/ochi/015-Nina-jpg-7ea1f143.png",
+      "bytes": 53593
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Tomer.png",
+      "localPath": "/assets/ochi/016-Tomer-9900d2a6.png",
+      "bytes": 62967
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/image-677-300x298.png",
+      "localPath": "/assets/ochi/017-image-677-300x298-0c8205c8.png",
+      "bytes": 98465
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/1627398835558-11.png",
+      "localPath": "/assets/ochi/018-1627398835558-11-aad36418.png",
+      "bytes": 43335
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/10/Photo-300x300.png",
+      "localPath": "/assets/ochi/019-Photo-300x300-58e4798e.png",
+      "bytes": 112411
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Stefan-300x300.jpg",
+      "localPath": "/assets/ochi/020-Stefan-300x300-2a2cfa0b.jpg",
+      "bytes": 10363
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Jaci.jpg.png",
+      "localPath": "/assets/ochi/021-Jaci-jpg-68c2fc2f.png",
+      "bytes": 87604
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/02/David-Budde-1-300x300.png",
+      "localPath": "/assets/ochi/022-David-Budde-1-300x300-3603b70e.png",
+      "bytes": 48478
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/04/logo001.svg",
+      "localPath": "/assets/ochi/023-logo001-f365597d.svg",
+      "bytes": 1071
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/04/logo002.svg",
+      "localPath": "/assets/ochi/024-logo002-03c4b736.svg",
+      "bytes": 2059
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/04/logo003.png",
+      "localPath": "/assets/ochi/025-logo003-ad896a99.png",
+      "bytes": 11511
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/04/Favicon.png",
+      "localPath": "/assets/ochi/026-Favicon-fa3ce9e5.png",
+      "bytes": 4331
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg",
+      "localPath": "/assets/ochi/027-content-image01-f787567d.jpg",
+      "bytes": 4224
+    },
+    {
+      "source": "https://ochi.design/wp-content/themes/ochi/assets/icons/apple-touch-icon.png",
+      "localPath": "/assets/ochi/028-apple-touch-icon-6568b941.png",
+      "bytes": 1650
+    },
+    {
+      "source": "https://ochi.design/wp-content/themes/ochi/assets/icons/favicon-32x32.png",
+      "localPath": "/assets/ochi/029-favicon-32x32-0abc449e.png",
+      "bytes": 363
+    },
+    {
+      "source": "https://ochi.design/wp-content/themes/ochi/assets/icons/favicon-16x16.png",
+      "localPath": "/assets/ochi/030-favicon-16x16-b72687dd.png",
+      "bytes": 230
+    },
+    {
+      "source": "https://ochi.design/wp-content/themes/ochi/assets/icons/safari-pinned-tab.svg",
+      "localPath": "/assets/ochi/031-safari-pinned-tab-33d3024a.svg",
+      "bytes": 917
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/04/Favicon-63x63.png",
+      "localPath": "/assets/ochi/032-Favicon-63x63-3cef3fce.png",
+      "bytes": 752
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/04/Favicon-194x194.png",
+      "localPath": "/assets/ochi/033-Favicon-194x194-70426911.png",
+      "bytes": 2592
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-1326x939.jpg",
+      "localPath": "/assets/ochi/034-Homepage-Photo-1326x939-c3459e0a.jpg",
+      "bytes": 174712
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg",
+      "localPath": "/assets/ochi/035-Top-Viewbbcbv-1-scaled-b2840b4e.jpg",
+      "bytes": 110232
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Salience_Website_cover-1326x1101.png",
+      "localPath": "/assets/ochi/036-Salience_Website_cover-1326x1101-b8e1d7ea.png",
+      "bytes": 561882
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/Frame-481692-1-1326x1101.png",
+      "localPath": "/assets/ochi/037-Frame-481692-1-1326x1101-bcc5bfa2.png",
+      "bytes": 174610
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Vise_Front-1-1326x1101.png",
+      "localPath": "/assets/ochi/038-Vise_Front-1-1326x1101-0ecc1753.png",
+      "bytes": 457210
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/06/Frame-3898-1-1326x1101.jpg",
+      "localPath": "/assets/ochi/039-Frame-3898-1-1326x1101-d77fcb55.jpg",
+      "bytes": 50883
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Fyde_Front-1-1326x1101.png",
+      "localPath": "/assets/ochi/040-Fyde_Front-1-1326x1101-1bc98881.png",
+      "bytes": 189058
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/ATG_Website_1-1326x1101.png",
+      "localPath": "/assets/ochi/041-ATG_Website_1-1326x1101-f4fe2583.png",
+      "bytes": 1945985
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/Frame-3875-1326x1101.jpg",
+      "localPath": "/assets/ochi/042-Frame-3875-1326x1101-518ae673.jpg",
+      "bytes": 87127
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_1-1326x1101.png",
+      "localPath": "/assets/ochi/043-CS_Website_1-1326x1101-5c6d1465.png",
+      "bytes": 370930
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB-Front-4-1326x1101.png",
+      "localPath": "/assets/ochi/044-PB-Front-4-1326x1101-64451ae3.png",
+      "bytes": 119532
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/1.Discovery-194x194.png",
+      "localPath": "/assets/ochi/047-1-Discovery-194x194-d5b6a2b9.png",
+      "bytes": 11920
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/2.Structure-194x194.png",
+      "localPath": "/assets/ochi/048-2-Structure-194x194-637d21d7.png",
+      "bytes": 7368
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/3.Design-194x194.png",
+      "localPath": "/assets/ochi/049-3-Design-194x194-993f6feb.png",
+      "bytes": 8270
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/4.Feedback-194x194.png",
+      "localPath": "/assets/ochi/050-4-Feedback-194x194-1ec0238e.png",
+      "bytes": 10551
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/5.Delivery-194x194.png",
+      "localPath": "/assets/ochi/051-5-Delivery-194x194-8868fc5b.png",
+      "bytes": 11486
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Asset-38-20-663x450.jpg",
+      "localPath": "/assets/ochi/052-Asset-38-20-663x450-705a9c7a.jpg",
+      "bytes": 57311
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Asset-36-20-663x448.jpg",
+      "localPath": "/assets/ochi/053-Asset-36-20-663x448-d189d52a.jpg",
+      "bytes": 54565
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Asset-39-20-663x448.jpg",
+      "localPath": "/assets/ochi/054-Asset-39-20-663x448-ab93863e.jpg",
+      "bytes": 58270
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Asset-34-20-663x448.jpg",
+      "localPath": "/assets/ochi/055-Asset-34-20-663x448-f033d66f.jpg",
+      "bytes": 61580
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Asset-37-20-663x448.jpg",
+      "localPath": "/assets/ochi/056-Asset-37-20-663x448-e27a553b.jpg",
+      "bytes": 62286
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Salience_Website_cover-663x550.png",
+      "localPath": "/assets/ochi/057-Salience_Website_cover-663x550-5c706b77.png",
+      "bytes": 179333
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Fyde_Front-1-663x550.png",
+      "localPath": "/assets/ochi/058-Fyde_Front-1-663x550-4d4db9cc.png",
+      "bytes": 55092
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/Frame-481692-1-663x550.png",
+      "localPath": "/assets/ochi/059-Frame-481692-1-663x550-9859caf3.png",
+      "bytes": 61193
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_1-663x550.png",
+      "localPath": "/assets/ochi/060-CS_Website_1-663x550-88e30039.png",
+      "bytes": 119802
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Vise_Front-1-663x550.png",
+      "localPath": "/assets/ochi/061-Vise_Front-1-663x550-ffeffcc4.png",
+      "bytes": 120960
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB-Front-4-663x550.png",
+      "localPath": "/assets/ochi/062-PB-Front-4-663x550-1f987c9b.png",
+      "bytes": 44789
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/Frame-3875-663x550.jpg",
+      "localPath": "/assets/ochi/063-Frame-3875-663x550-fce42aeb.jpg",
+      "bytes": 27543
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/10-663x550.png",
+      "localPath": "/assets/ochi/064-10-663x550-db187a2e.png",
+      "bytes": 163026
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/06/Frame-3876-663x550.jpg",
+      "localPath": "/assets/ochi/065-Frame-3876-663x550-0e184aab.jpg",
+      "bytes": 26853
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/06/Frame-3898-1-663x550.jpg",
+      "localPath": "/assets/ochi/066-Frame-3898-1-663x550-e089850e.jpg",
+      "bytes": 18322
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Officevibe-Short-1-663x550.jpg",
+      "localPath": "/assets/ochi/067-Officevibe-Short-1-663x550-89bfb595.jpg",
+      "bytes": 45070
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Photo-663x550.jpg",
+      "localPath": "/assets/ochi/068-Photo-663x550-0878425e.jpg",
+      "bytes": 53198
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3878-325x325.jpg",
+      "localPath": "/assets/ochi/069-Frame-3878-325x325-eae1333b.jpg",
+      "bytes": 11705
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Soma_Website_17-325x325.png",
+      "localPath": "/assets/ochi/070-Soma_Website_17-325x325-ad7d81f4.png",
+      "bytes": 27964
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Salience_Website_cover-1326x1100.png",
+      "localPath": "/assets/ochi/071-Salience_Website_cover-1326x1100-081aabd4.png",
+      "bytes": 561837
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Fyde_Front-1-1326x1100.png",
+      "localPath": "/assets/ochi/072-Fyde_Front-1-1326x1100-c6ceda83.png",
+      "bytes": 189158
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/Frame-481692-1-1326x1100.png",
+      "localPath": "/assets/ochi/073-Frame-481692-1-1326x1100-0730fa03.png",
+      "bytes": 174534
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_1-1326x1100.png",
+      "localPath": "/assets/ochi/074-CS_Website_1-1326x1100-a51f763c.png",
+      "bytes": 370201
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Vise_Front-1-1326x1100.png",
+      "localPath": "/assets/ochi/075-Vise_Front-1-1326x1100-6ca2435f.png",
+      "bytes": 455869
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB-Front-4-1326x1100.png",
+      "localPath": "/assets/ochi/076-PB-Front-4-1326x1100-ff0be91c.png",
+      "bytes": 119374
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/Frame-3875-1326x1100.jpg",
+      "localPath": "/assets/ochi/077-Frame-3875-1326x1100-3546a86b.jpg",
+      "bytes": 87130
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/10-1326x1100.png",
+      "localPath": "/assets/ochi/078-10-1326x1100-652786c6.png",
+      "bytes": 456002
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/06/Frame-3876-1326x1100.jpg",
+      "localPath": "/assets/ochi/079-Frame-3876-1326x1100-75a7c868.jpg",
+      "bytes": 80716
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/06/Frame-3898-1-1326x1100.jpg",
+      "localPath": "/assets/ochi/080-Frame-3898-1-1326x1100-5de3b733.jpg",
+      "bytes": 50622
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Officevibe-Short-1-1326x1100.jpg",
+      "localPath": "/assets/ochi/081-Officevibe-Short-1-1326x1100-e4a05dd4.jpg",
+      "bytes": 121979
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Photo-1326x1100.jpg",
+      "localPath": "/assets/ochi/082-Photo-1326x1100-9fa4b991.jpg",
+      "bytes": 138838
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3878-650x650.jpg",
+      "localPath": "/assets/ochi/083-Frame-3878-650x650-f213956d.jpg",
+      "bytes": 30694
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Soma_Website_17-650x650.png",
+      "localPath": "/assets/ochi/084-Soma_Website_17-650x650-979c5d77.png",
+      "bytes": 86435
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/017091720030-1340x858.jpg",
+      "localPath": "/assets/ochi/085-017091720030-1340x858-5fb870c5.jpg",
+      "bytes": 170741
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/09/ochi_1-1-304x330.avif",
+      "localPath": "/assets/ochi/086-ochi_1-1-304x330-2c4e47b0.avif",
+      "bytes": 14650
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/INSTAGRAM_1-1.png",
+      "localPath": "/assets/ochi/087-INSTAGRAM_1-1-a4a89ff4.png",
+      "bytes": 376254
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/09/ochi_2-1.avif",
+      "localPath": "/assets/ochi/088-ochi_2-1-b9b5964a.avif",
+      "bytes": 486577
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/09/ochi_3-1.avif",
+      "localPath": "/assets/ochi/089-ochi_3-1-7a3aa34e.avif",
+      "bytes": 408327
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/09/Ihor_ochi.design.avif",
+      "localPath": "/assets/ochi/090-Ihor_ochi-design-abbedbee.avif",
+      "bytes": 182956
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/09/Kseniia_ochi.design.avif",
+      "localPath": "/assets/ochi/091-Kseniia_ochi-design-e35846f5.avif",
+      "bytes": 205319
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Group-481774-1-63x63.png",
+      "localPath": "/assets/ochi/092-Group-481774-1-63x63-2ce036be.png",
+      "bytes": 998
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Asset-15.svg",
+      "localPath": "/assets/ochi/093-Asset-15-a9fd6bc1.svg",
+      "bytes": 903
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Vector1.svg",
+      "localPath": "/assets/ochi/094-Vector1-ae831dc5.svg",
+      "bytes": 1891
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Logo_2-1.svg",
+      "localPath": "/assets/ochi/095-Logo_2-1-30ca5e7d.svg",
+      "bytes": 26622
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/toyota-logo-freelogovectors.net_.svg",
+      "localPath": "/assets/ochi/096-toyota-logo-freelogovectors-net_-8cf221fd.svg",
+      "bytes": 7784
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Logo_2.svg",
+      "localPath": "/assets/ochi/097-Logo_2-e5992b56.svg",
+      "bytes": 2689
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/aflori-logo-freelogovectors.net_.svg",
+      "localPath": "/assets/ochi/098-aflori-logo-freelogovectors-net_-41be269f.svg",
+      "bytes": 15175
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Asset-12.svg",
+      "localPath": "/assets/ochi/099-Asset-12-4b01f3ad.svg",
+      "bytes": 7419
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Picture2-1.svg",
+      "localPath": "/assets/ochi/100-Picture2-1-c0b3db63.svg",
+      "bytes": 250499
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_Website_238-1-324x324.png",
+      "localPath": "/assets/ochi/101-SL_Website_238-1-324x324-ef3f8ff7.png",
+      "bytes": 45634
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/07/trawa_website-324x243.png",
+      "localPath": "/assets/ochi/102-trawa_website-324x243-600bd6cc.png",
+      "bytes": 28181
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/01/front_exploration_265-1-324x324.png",
+      "localPath": "/assets/ochi/103-front_exploration_265-1-324x324-6f941926.png",
+      "bytes": 27512
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/017091720030.jpg",
+      "localPath": "/assets/ochi/104-017091720030-66ef4b7f.jpg",
+      "bytes": 413966
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/09/ochi_1-1-608x660.avif",
+      "localPath": "/assets/ochi/105-ochi_1-1-608x660-42a7eece.avif",
+      "bytes": 47968
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_Website_238-1-663x663.png",
+      "localPath": "/assets/ochi/106-SL_Website_238-1-663x663-0a751cd5.png",
+      "bytes": 165746
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/07/trawa_website-663x497.png",
+      "localPath": "/assets/ochi/107-trawa_website-663x497-29a4bca4.png",
+      "bytes": 90807
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/01/front_exploration_265-1-663x663.png",
+      "localPath": "/assets/ochi/108-front_exploration_265-1-663x663-a90d2ef6.png",
+      "bytes": 109122
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/11/v3_0-324x324.png",
+      "localPath": "/assets/ochi/109-v3_0-324x324-6879e033.png",
+      "bytes": 6472
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/Frame-41265-324x394.png",
+      "localPath": "/assets/ochi/110-Frame-41265-324x394-7fad2b4d.png",
+      "bytes": 46365
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/front-5_optimized-324x324.jpg",
+      "localPath": "/assets/ochi/111-front-5_optimized-324x324-f9f153b1.jpg",
+      "bytes": 14608
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/ochi.design_4-325x325.png",
+      "localPath": "/assets/ochi/112-ochi-design_4-325x325-542afb02.png",
+      "bytes": 30206
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/ochi.design_5-325x325.png",
+      "localPath": "/assets/ochi/113-ochi-design_5-325x325-e999ec35.png",
+      "bytes": 7362
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/ochi.design_3-325x325.png",
+      "localPath": "/assets/ochi/114-ochi-design_3-325x325-7a787df8.png",
+      "bytes": 33106
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/11/v3_0-663x663.png",
+      "localPath": "/assets/ochi/115-v3_0-663x663-557c7571.png",
+      "bytes": 16318
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/Frame-41265-663x806.png",
+      "localPath": "/assets/ochi/116-Frame-41265-663x806-55e13279.png",
+      "bytes": 147803
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/front-5_optimized-663x663.jpg",
+      "localPath": "/assets/ochi/117-front-5_optimized-663x663-09a5239f.jpg",
+      "bytes": 39414
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/ochi.design_4-650x650.png",
+      "localPath": "/assets/ochi/118-ochi-design_4-650x650-69153d92.png",
+      "bytes": 86425
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/ochi.design_5-650x650.png",
+      "localPath": "/assets/ochi/119-ochi-design_5-650x650-2750fc44.png",
+      "bytes": 15211
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/ochi.design_3-650x650.png",
+      "localPath": "/assets/ochi/120-ochi-design_3-650x650-d59beea4.png",
+      "bytes": 100126
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Asset-41-20-300x203.jpg",
+      "localPath": "/assets/ochi/121-Asset-41-20-300x203-18045c0a.jpg",
+      "bytes": 48112
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_1-1340x740.png",
+      "localPath": "/assets/ochi/122-SL_1-1340x740-9d0be240.png",
+      "bytes": 65221
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_2-1340x825.png",
+      "localPath": "/assets/ochi/123-SL_2-1340x825-87ee08bf.png",
+      "bytes": 1187102
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/New-file-8.gif",
+      "localPath": "/assets/ochi/124-New-file-8-905b2430.gif",
+      "bytes": 29824551
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Logo_SalienceLabs-2-1340x1481.png",
+      "localPath": "/assets/ochi/125-Logo_SalienceLabs-2-1340x1481-c872af52.png",
+      "bytes": 87308
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_3-1340x826.png",
+      "localPath": "/assets/ochi/126-SL_3-1340x826-0e9f801c.png",
+      "bytes": 905412
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Salience-Labs_Slides-1-1440x921.png",
+      "localPath": "/assets/ochi/127-Salience-Labs_Slides-1-1440x921-b120e254.png",
+      "bytes": 367214
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_5-1340x826.png",
+      "localPath": "/assets/ochi/128-SL_5-1340x826-f763a496.png",
+      "bytes": 221906
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_7-1340x764.png",
+      "localPath": "/assets/ochi/129-SL_7-1340x764-90753102.png",
+      "bytes": 338361
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_4-1-1340x1283.png",
+      "localPath": "/assets/ochi/130-SL_4-1-1340x1283-d0455aa6.png",
+      "bytes": 141342
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_Website_7-1-550x500.png",
+      "localPath": "/assets/ochi/131-SL_Website_7-1-550x500-de0b602f.png",
+      "bytes": 17442
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_Website_8-1-550x699.png",
+      "localPath": "/assets/ochi/132-SL_Website_8-1-550x699-8215d852.png",
+      "bytes": 209651
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/New-file-10-1340x563.gif",
+      "localPath": "/assets/ochi/133-New-file-10-1340x563-3da81728.gif",
+      "bytes": 18668
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Salience_Website_cover-1024x825.png",
+      "localPath": "/assets/ochi/134-Salience_Website_cover-1024x825-31d8195b.png",
+      "bytes": 362676
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Salience_Website_cover-300x242.png",
+      "localPath": "/assets/ochi/135-Salience_Website_cover-300x242-d8acf0fa.png",
+      "bytes": 48008
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_1.png",
+      "localPath": "/assets/ochi/136-SL_1-b03354bc.png",
+      "bytes": 39841
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_2.png",
+      "localPath": "/assets/ochi/137-SL_2-cbf27c06.png",
+      "bytes": 839015
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Logo_SalienceLabs-2.png",
+      "localPath": "/assets/ochi/138-Logo_SalienceLabs-2-0f96dd72.png",
+      "bytes": 170391
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_3.png",
+      "localPath": "/assets/ochi/139-SL_3-e30a4bbb.png",
+      "bytes": 989011
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Salience-Labs_Slides-1.png",
+      "localPath": "/assets/ochi/140-Salience-Labs_Slides-1-67d43008.png",
+      "bytes": 315730
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_5.png",
+      "localPath": "/assets/ochi/141-SL_5-05c5f278.png",
+      "bytes": 290191
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_7.png",
+      "localPath": "/assets/ochi/142-SL_7-2b8b8306.png",
+      "bytes": 582236
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_4-1.png",
+      "localPath": "/assets/ochi/143-SL_4-1-ed879412.png",
+      "bytes": 207565
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_Website_7-1-1100x1000.png",
+      "localPath": "/assets/ochi/144-SL_Website_7-1-1100x1000-bc281f8a.png",
+      "bytes": 49545
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/SL_Website_8-1-1100x1397.png",
+      "localPath": "/assets/ochi/145-SL_Website_8-1-1100x1397-b3ee51bb.png",
+      "bytes": 706029
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/New-file-10.gif",
+      "localPath": "/assets/ochi/146-New-file-10-91d0c729.gif",
+      "bytes": 804276
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_1-1340x740.png",
+      "localPath": "/assets/ochi/147-Med_Website_1-1340x740-c8c363ab.png",
+      "bytes": 176352
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/medallia_35_11-1-1340x995.png",
+      "localPath": "/assets/ochi/148-medallia_35_11-1-1340x995-8129223f.png",
+      "bytes": 326305
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_1_1.png",
+      "localPath": "/assets/ochi/149-Med_Website_1_1-59690031.png",
+      "bytes": 813410
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_2-1340x666.png",
+      "localPath": "/assets/ochi/150-Med_Website_2-1340x666-e9816417.png",
+      "bytes": 149459
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_3-1340x911.png",
+      "localPath": "/assets/ochi/151-Med_Website_3-1340x911-0c8195cd.png",
+      "bytes": 13633
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_4.png",
+      "localPath": "/assets/ochi/152-Med_Website_4-bc929065.png",
+      "bytes": 896565
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_5-1340x953.png",
+      "localPath": "/assets/ochi/153-Med_Website_5-1340x953-d477306f.png",
+      "bytes": 99296
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_6-550x699.png",
+      "localPath": "/assets/ochi/154-Med_Website_6-550x699-df83b8ee.png",
+      "bytes": 43329
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_7.png",
+      "localPath": "/assets/ochi/155-Med_Website_7-188e979c.png",
+      "bytes": 950759
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_8.png",
+      "localPath": "/assets/ochi/156-Med_Website_8-49818063.png",
+      "bytes": 811589
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_9.png",
+      "localPath": "/assets/ochi/157-Med_Website_9-d12eac99.png",
+      "bytes": 808125
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_10.png",
+      "localPath": "/assets/ochi/158-Med_Website_10-a342f6c7.png",
+      "bytes": 664564
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_11.png",
+      "localPath": "/assets/ochi/159-Med_Website_11-ef61b312.png",
+      "bytes": 543688
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_12-550x699.png",
+      "localPath": "/assets/ochi/160-Med_Website_12-550x699-6a8b8b7a.png",
+      "bytes": 190472
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_13-550x550.png",
+      "localPath": "/assets/ochi/161-Med_Website_13-550x550-72a1189d.png",
+      "bytes": 27757
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_14.png",
+      "localPath": "/assets/ochi/162-Med_Website_14-a549a7e0.png",
+      "bytes": 734734
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_15-1340x759.png",
+      "localPath": "/assets/ochi/163-Med_Website_15-1340x759-73e0acb9.png",
+      "bytes": 363182
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_16-550x699.png",
+      "localPath": "/assets/ochi/164-Med_Website_16-550x699-b5ac7cb3.png",
+      "bytes": 45320
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_17.png",
+      "localPath": "/assets/ochi/165-Med_Website_17-40f8e721.png",
+      "bytes": 1053611
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_18-1340x1005.png",
+      "localPath": "/assets/ochi/166-Med_Website_18-1340x1005-a23fed29.png",
+      "bytes": 152071
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_19-1340x1098.png",
+      "localPath": "/assets/ochi/167-Med_Website_19-1340x1098-53f1ff2e.png",
+      "bytes": 130344
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_0-300x242.png",
+      "localPath": "/assets/ochi/168-Med_Website_0-300x242-f1cf7d1f.png",
+      "bytes": 28531
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_1-scaled.png",
+      "localPath": "/assets/ochi/169-Med_Website_1-scaled-470c81f0.png",
+      "bytes": 563675
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/medallia_35_11-1.png",
+      "localPath": "/assets/ochi/170-medallia_35_11-1-3db83a65.png",
+      "bytes": 205500
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_2-scaled.png",
+      "localPath": "/assets/ochi/171-Med_Website_2-scaled-03051d45.png",
+      "bytes": 501478
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_3-scaled.png",
+      "localPath": "/assets/ochi/172-Med_Website_3-scaled-3eb359f0.png",
+      "bytes": 31077
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_5-scaled.png",
+      "localPath": "/assets/ochi/173-Med_Website_5-scaled-aa8d869a.png",
+      "bytes": 383107
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_6-1100x1398.png",
+      "localPath": "/assets/ochi/174-Med_Website_6-1100x1398-723ed24d.png",
+      "bytes": 143382
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_12-1100x1398.png",
+      "localPath": "/assets/ochi/175-Med_Website_12-1100x1398-e80ef674.png",
+      "bytes": 680823
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_13-1100x1100.png",
+      "localPath": "/assets/ochi/176-Med_Website_13-1100x1100-c4452753.png",
+      "bytes": 84893
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_15.png",
+      "localPath": "/assets/ochi/177-Med_Website_15-63b9b91d.png",
+      "bytes": 687093
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_16-1100x1398.png",
+      "localPath": "/assets/ochi/178-Med_Website_16-1100x1398-9cf3f227.png",
+      "bytes": 150937
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_18-scaled.png",
+      "localPath": "/assets/ochi/179-Med_Website_18-scaled-5485ce67.png",
+      "bytes": 491919
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/08/Med_Website_19-scaled.png",
+      "localPath": "/assets/ochi/180-Med_Website_19-scaled-81583ee1.png",
+      "bytes": 421553
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_1-1340x740.png",
+      "localPath": "/assets/ochi/181-HORN_WEB_1-1340x740-620a7e77.png",
+      "bytes": 75320
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_2-1340x848.png",
+      "localPath": "/assets/ochi/182-HORN_WEB_2-1340x848-7e4e7a12.png",
+      "bytes": 986399
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN-1340x1302.png",
+      "localPath": "/assets/ochi/183-HORN-1340x1302-b95d15a1.png",
+      "bytes": 507833
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_5-550x500.png",
+      "localPath": "/assets/ochi/184-HORN_WEB_5-550x500-b50901fc.png",
+      "bytes": 228501
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_6-550x699.png",
+      "localPath": "/assets/ochi/185-HORN_WEB_6-550x699-36618f51.png",
+      "bytes": 454607
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_245-1-1340x829.png",
+      "localPath": "/assets/ochi/186-HORN_245-1-1340x829-0fecb513.png",
+      "bytes": 104498
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/horn_dribbble_1455-1-1440x921.png",
+      "localPath": "/assets/ochi/187-horn_dribbble_1455-1-1440x921-7f0e5375.png",
+      "bytes": 762452
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/Frame-481690-1-550x623.png",
+      "localPath": "/assets/ochi/188-Frame-481690-1-550x623-647b2e5e.png",
+      "bytes": 80217
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/Frame-481691-1-550x623.png",
+      "localPath": "/assets/ochi/189-Frame-481691-1-550x623-31e3f3b7.png",
+      "bytes": 451058
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_4-1340x847.png",
+      "localPath": "/assets/ochi/190-HORN_WEB_4-1340x847-5d85f0ae.png",
+      "bytes": 473572
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_5-1-550x500.png",
+      "localPath": "/assets/ochi/191-HORN_WEB_5-1-550x500-5701513c.png",
+      "bytes": 22637
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_6-1-550x699.png",
+      "localPath": "/assets/ochi/192-HORN_WEB_6-1-550x699-63fc6646.png",
+      "bytes": 649336
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_10-1340x847.png",
+      "localPath": "/assets/ochi/193-HORN_WEB_10-1340x847-5701326d.png",
+      "bytes": 1018146
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_1033-1-1340x847.png",
+      "localPath": "/assets/ochi/194-HORN_WEB_1033-1-1340x847-524fa58a.png",
+      "bytes": 366523
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_3-1340x848.png",
+      "localPath": "/assets/ochi/195-HORN_WEB_3-1340x848-87ccc8a5.png",
+      "bytes": 527578
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_8-550x500.png",
+      "localPath": "/assets/ochi/196-HORN_WEB_8-550x500-a6034b31.png",
+      "bytes": 363423
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_9-550x700.png",
+      "localPath": "/assets/ochi/197-HORN_WEB_9-550x700-f80d6fcb.png",
+      "bytes": 141350
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_113-1-1340x847.png",
+      "localPath": "/assets/ochi/198-HORN_WEB_113-1-1340x847-e562e754.png",
+      "bytes": 84424
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/Frame-481692-1-1024x825.png",
+      "localPath": "/assets/ochi/199-Frame-481692-1-1024x825-da058db5.png",
+      "bytes": 113880
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/Frame-481692-1-300x242.png",
+      "localPath": "/assets/ochi/200-Frame-481692-1-300x242-ae18e3bd.png",
+      "bytes": 17858
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_1.png",
+      "localPath": "/assets/ochi/201-HORN_WEB_1-77939995.png",
+      "bytes": 61072
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_2.png",
+      "localPath": "/assets/ochi/202-HORN_WEB_2-c3534f0b.png",
+      "bytes": 1166171
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN.png",
+      "localPath": "/assets/ochi/203-HORN-9882baed.png",
+      "bytes": 602346
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_5-1100x1000.png",
+      "localPath": "/assets/ochi/204-HORN_WEB_5-1100x1000-91475fb4.png",
+      "bytes": 845469
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_6-1100x1397.png",
+      "localPath": "/assets/ochi/205-HORN_WEB_6-1100x1397-91f28b6d.png",
+      "bytes": 1293601
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_245-1.png",
+      "localPath": "/assets/ochi/206-HORN_245-1-18dfae35.png",
+      "bytes": 104704
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/horn_dribbble_1455-1.png",
+      "localPath": "/assets/ochi/207-horn_dribbble_1455-1-dd02c0d5.png",
+      "bytes": 758664
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/Frame-481690-1.png",
+      "localPath": "/assets/ochi/208-Frame-481690-1-5bc307df.png",
+      "bytes": 52650
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/Frame-481691-1.png",
+      "localPath": "/assets/ochi/209-Frame-481691-1-e15681bb.png",
+      "bytes": 294591
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_4.png",
+      "localPath": "/assets/ochi/210-HORN_WEB_4-46382b7e.png",
+      "bytes": 1095318
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_5-1.png",
+      "localPath": "/assets/ochi/211-HORN_WEB_5-1-50dd2d11.png",
+      "bytes": 24345
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_6-1-1100x1397.png",
+      "localPath": "/assets/ochi/212-HORN_WEB_6-1-1100x1397-56a1200e.png",
+      "bytes": 2380273
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_10.png",
+      "localPath": "/assets/ochi/213-HORN_WEB_10-1aa90b8e.png",
+      "bytes": 1755394
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_1033-1.png",
+      "localPath": "/assets/ochi/214-HORN_WEB_1033-1-f9d6505c.png",
+      "bytes": 819076
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_3.png",
+      "localPath": "/assets/ochi/215-HORN_WEB_3-3843441d.png",
+      "bytes": 1130650
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_8-1100x999.png",
+      "localPath": "/assets/ochi/216-HORN_WEB_8-1100x999-4bfddaeb.png",
+      "bytes": 1387735
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_9-1100x1399.png",
+      "localPath": "/assets/ochi/217-HORN_WEB_9-1100x1399-7cceed68.png",
+      "bytes": 579186
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/HORN_WEB_113-1.png",
+      "localPath": "/assets/ochi/218-HORN_WEB_113-1-21048214.png",
+      "bytes": 128751
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE1-1340x740.jpg",
+      "localPath": "/assets/ochi/219-VISE1-1340x740-1a232872.jpg",
+      "bytes": 87805
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE2-1340x848.jpg",
+      "localPath": "/assets/ochi/220-VISE2-1340x848-a3642d0e.jpg",
+      "bytes": 156989
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE3-1340x848.jpg",
+      "localPath": "/assets/ochi/221-VISE3-1340x848-933a1959.jpg",
+      "bytes": 129270
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE4-1340x848.jpg",
+      "localPath": "/assets/ochi/222-VISE4-1340x848-41072090.jpg",
+      "bytes": 87223
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE5-550x500.jpg",
+      "localPath": "/assets/ochi/223-VISE5-550x500-f5d4a7d8.jpg",
+      "bytes": 18117
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE6-550x700.jpg",
+      "localPath": "/assets/ochi/224-VISE6-550x700-6e6cbd7e.jpg",
+      "bytes": 19848
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE9-1340x847.jpg",
+      "localPath": "/assets/ochi/225-VISE9-1340x847-80b12544.jpg",
+      "bytes": 50953
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE7-550x500.jpg",
+      "localPath": "/assets/ochi/226-VISE7-550x500-a88bfef8.jpg",
+      "bytes": 27025
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE8-550x699.jpg",
+      "localPath": "/assets/ochi/227-VISE8-550x699-138f9d4e.jpg",
+      "bytes": 20496
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE10-1340x847.jpg",
+      "localPath": "/assets/ochi/228-VISE10-1340x847-7df0d930.jpg",
+      "bytes": 64054
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE_BEFORE-1340x847.jpg",
+      "localPath": "/assets/ochi/229-VISE_BEFORE-1340x847-04290748.jpg",
+      "bytes": 109921
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE5-1340x1218.jpg",
+      "localPath": "/assets/ochi/230-VISE5-1340x1218-6933f628.jpg",
+      "bytes": 69048
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE11-1340x847.jpg",
+      "localPath": "/assets/ochi/231-VISE11-1340x847-67810845.jpg",
+      "bytes": 49188
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Vise_Front-1-1024x837.png",
+      "localPath": "/assets/ochi/232-Vise_Front-1-1024x837-9807704f.png",
+      "bytes": 274040
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Vise_Front-1-300x245.png",
+      "localPath": "/assets/ochi/233-Vise_Front-1-300x245-f004a59f.png",
+      "bytes": 24889
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE1-scaled.jpg",
+      "localPath": "/assets/ochi/234-VISE1-scaled-aae56466.jpg",
+      "bytes": 259047
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE2.jpg",
+      "localPath": "/assets/ochi/235-VISE2-ccdbc464.jpg",
+      "bytes": 310639
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE3-scaled.jpg",
+      "localPath": "/assets/ochi/236-VISE3-scaled-26ee4863.jpg",
+      "bytes": 329056
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE4-scaled.jpg",
+      "localPath": "/assets/ochi/237-VISE4-scaled-ba6ba802.jpg",
+      "bytes": 215464
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE5-1100x1000.jpg",
+      "localPath": "/assets/ochi/238-VISE5-1100x1000-ebaa4819.jpg",
+      "bytes": 50863
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE6-1100x1399.jpg",
+      "localPath": "/assets/ochi/239-VISE6-1100x1399-4ed470d1.jpg",
+      "bytes": 56213
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE9-scaled.jpg",
+      "localPath": "/assets/ochi/240-VISE9-scaled-64035f65.jpg",
+      "bytes": 141704
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE7-1100x1000.jpg",
+      "localPath": "/assets/ochi/241-VISE7-1100x1000-27a1bd4f.jpg",
+      "bytes": 75912
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE8-1100x1399.jpg",
+      "localPath": "/assets/ochi/242-VISE8-1100x1399-1b452843.jpg",
+      "bytes": 56546
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE10-scaled.jpg",
+      "localPath": "/assets/ochi/243-VISE10-scaled-464d0473.jpg",
+      "bytes": 168487
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE_BEFORE-scaled.jpg",
+      "localPath": "/assets/ochi/244-VISE_BEFORE-scaled-8b79f33d.jpg",
+      "bytes": 297286
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE5.jpg",
+      "localPath": "/assets/ochi/245-VISE5-435288fa.jpg",
+      "bytes": 90697
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/09/VISE11-scaled.jpg",
+      "localPath": "/assets/ochi/246-VISE11-scaled-6cafb929.jpg",
+      "bytes": 137698
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3889-1340x740.jpg",
+      "localPath": "/assets/ochi/247-Frame-3889-1340x740-e5960fd2.jpg",
+      "bytes": 32036
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Workiz_1-2-1340x848.jpg",
+      "localPath": "/assets/ochi/248-Workiz_1-2-1340x848-e6c7415f.jpg",
+      "bytes": 58732
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/SoftStart-1340x848.jpg",
+      "localPath": "/assets/ochi/249-SoftStart-1340x848-f252ac05.jpg",
+      "bytes": 113151
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3879-1-1340x848.jpg",
+      "localPath": "/assets/ochi/250-Frame-3879-1-1340x848-fad3bd04.jpg",
+      "bytes": 82445
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Mask-group-1-550x568.jpg",
+      "localPath": "/assets/ochi/251-Mask-group-1-550x568-e269ef05.jpg",
+      "bytes": 46765
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3888-1-550x699.jpg",
+      "localPath": "/assets/ochi/252-Frame-3888-1-550x699-6f8f0eb4.jpg",
+      "bytes": 26385
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3896-1340x847.jpg",
+      "localPath": "/assets/ochi/253-Frame-3896-1340x847-ced727ec.jpg",
+      "bytes": 44186
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3884-1-550x500.jpg",
+      "localPath": "/assets/ochi/254-Frame-3884-1-550x500-a7540868.jpg",
+      "bytes": 16215
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3883-1-550x700.jpg",
+      "localPath": "/assets/ochi/255-Frame-3883-1-550x700-143a4a60.jpg",
+      "bytes": 47808
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3866-1-1440x921.jpg",
+      "localPath": "/assets/ochi/256-Frame-3866-1-1440x921-d39c7a2d.jpg",
+      "bytes": 168810
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/06/Frame-3898-1-1024x825.jpg",
+      "localPath": "/assets/ochi/257-Frame-3898-1-1024x825-f445def8.jpg",
+      "bytes": 33297
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/06/Frame-3898-1-300x242.jpg",
+      "localPath": "/assets/ochi/258-Frame-3898-1-300x242-cd58d0b0.jpg",
+      "bytes": 5323
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3889-scaled.jpg",
+      "localPath": "/assets/ochi/259-Frame-3889-scaled-86e914a9.jpg",
+      "bytes": 80433
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Workiz_1-2-scaled.jpg",
+      "localPath": "/assets/ochi/260-Workiz_1-2-scaled-a77b3f3c.jpg",
+      "bytes": 147624
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/SoftStart-scaled.jpg",
+      "localPath": "/assets/ochi/261-SoftStart-scaled-681934f6.jpg",
+      "bytes": 278802
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3879-1-scaled.jpg",
+      "localPath": "/assets/ochi/262-Frame-3879-1-scaled-d3f6dbf5.jpg",
+      "bytes": 215444
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Mask-group-1-1100x1136.jpg",
+      "localPath": "/assets/ochi/263-Mask-group-1-1100x1136-a2a6d4b1.jpg",
+      "bytes": 129121
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3888-1-1100x1399.jpg",
+      "localPath": "/assets/ochi/264-Frame-3888-1-1100x1399-5e123d1d.jpg",
+      "bytes": 77057
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3896-scaled.jpg",
+      "localPath": "/assets/ochi/265-Frame-3896-scaled-e5216df1.jpg",
+      "bytes": 117394
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3884-1-1100x1000.jpg",
+      "localPath": "/assets/ochi/266-Frame-3884-1-1100x1000-3f4855ea.jpg",
+      "bytes": 44239
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3883-1-1100x1399.jpg",
+      "localPath": "/assets/ochi/267-Frame-3883-1-1100x1399-263e003c.jpg",
+      "bytes": 132879
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3866-1.jpg",
+      "localPath": "/assets/ochi/268-Frame-3866-1-521ea44f.jpg",
+      "bytes": 228070
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde1-1-1340x740.jpg",
+      "localPath": "/assets/ochi/269-Fyde1-1-1340x740-2ed616bd.jpg",
+      "bytes": 76396
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde2-1340x847.png",
+      "localPath": "/assets/ochi/270-Fyde2-1340x847-16367332.png",
+      "bytes": 908471
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde3-1440x921.png",
+      "localPath": "/assets/ochi/271-Fyde3-1440x921-8c541d6a.png",
+      "bytes": 608126
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde4.png",
+      "localPath": "/assets/ochi/272-Fyde4-43bdf8a6.png",
+      "bytes": 1203325
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde5-1340x740.png",
+      "localPath": "/assets/ochi/273-Fyde5-1340x740-6be4ff0d.png",
+      "bytes": 269465
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde6_before-1340x847.png",
+      "localPath": "/assets/ochi/274-Fyde6_before-1340x847-26bbae47.png",
+      "bytes": 1043441
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde6_after-1340x847.png",
+      "localPath": "/assets/ochi/275-Fyde6_after-1340x847-bdea44d7.png",
+      "bytes": 821395
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde7-550x500.png",
+      "localPath": "/assets/ochi/276-Fyde7-550x500-b02a837e.png",
+      "bytes": 96940
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde7.1-550x700.png",
+      "localPath": "/assets/ochi/277-Fyde7-1-550x700-511741e8.png",
+      "bytes": 288171
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde8-1340x847.png",
+      "localPath": "/assets/ochi/278-Fyde8-1340x847-e9b3b6aa.png",
+      "bytes": 926634
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde9-550x500.png",
+      "localPath": "/assets/ochi/279-Fyde9-550x500-6a76460a.png",
+      "bytes": 90737
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde9.1-550x700.png",
+      "localPath": "/assets/ochi/280-Fyde9-1-550x700-ca342fc4.png",
+      "bytes": 82743
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde10-1340x847.png",
+      "localPath": "/assets/ochi/281-Fyde10-1340x847-9051988b.png",
+      "bytes": 190572
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde11_before-1340x847.png",
+      "localPath": "/assets/ochi/282-Fyde11_before-1340x847-a9eafa34.png",
+      "bytes": 407074
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde11_after-1340x847.png",
+      "localPath": "/assets/ochi/283-Fyde11_after-1340x847-31187745.png",
+      "bytes": 441871
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde8-1024x647.png",
+      "localPath": "/assets/ochi/284-Fyde8-1024x647-2e253ba2.png",
+      "bytes": 514454
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2025/02/Fyde_Front-1-300x245.png",
+      "localPath": "/assets/ochi/285-Fyde_Front-1-300x245-9ccc90f7.png",
+      "bytes": 17568
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde1-1.jpg",
+      "localPath": "/assets/ochi/286-Fyde1-1-e0dbda8c.jpg",
+      "bytes": 508517
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde2.png",
+      "localPath": "/assets/ochi/287-Fyde2-542151df.png",
+      "bytes": 1888317
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde3.png",
+      "localPath": "/assets/ochi/288-Fyde3-773f0582.png",
+      "bytes": 477371
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde5.png",
+      "localPath": "/assets/ochi/289-Fyde5-2466a37f.png",
+      "bytes": 505877
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde6_before.png",
+      "localPath": "/assets/ochi/290-Fyde6_before-3c0abbec.png",
+      "bytes": 1240324
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde6_after.png",
+      "localPath": "/assets/ochi/291-Fyde6_after-4b1ffb00.png",
+      "bytes": 1443380
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde7.png",
+      "localPath": "/assets/ochi/292-Fyde7-6ed0b206.png",
+      "bytes": 251142
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde7.1.png",
+      "localPath": "/assets/ochi/293-Fyde7-1-e84f5a6a.png",
+      "bytes": 723844
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde8.png",
+      "localPath": "/assets/ochi/294-Fyde8-082437c6.png",
+      "bytes": 1348695
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde9.png",
+      "localPath": "/assets/ochi/295-Fyde9-90c8cf05.png",
+      "bytes": 117807
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde9.1.png",
+      "localPath": "/assets/ochi/296-Fyde9-1-c733f09c.png",
+      "bytes": 182820
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde10.png",
+      "localPath": "/assets/ochi/297-Fyde10-ea8e6b96.png",
+      "bytes": 278465
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde11_before.png",
+      "localPath": "/assets/ochi/298-Fyde11_before-b0356a00.png",
+      "bytes": 433983
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/09/Fyde11_after.png",
+      "localPath": "/assets/ochi/299-Fyde11_after-faa06a75.png",
+      "bytes": 625865
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_1-1340x740.jpg",
+      "localPath": "/assets/ochi/300-TRAWA_WEB_1-1340x740-cf729e2a.jpg",
+      "bytes": 62875
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_2-1340x848.jpg",
+      "localPath": "/assets/ochi/301-TRAWA_WEB_2-1340x848-5a1498c8.jpg",
+      "bytes": 53489
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_3-1340x847.jpg",
+      "localPath": "/assets/ochi/302-TRAWA_WEB_3-1340x847-d60c4e36.jpg",
+      "bytes": 44527
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_4-1340x848.jpg",
+      "localPath": "/assets/ochi/303-TRAWA_WEB_4-1340x848-b361de1b.jpg",
+      "bytes": 50425
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_5-550x500.jpg",
+      "localPath": "/assets/ochi/304-TRAWA_WEB_5-550x500-a3aadee6.jpg",
+      "bytes": 47753
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_6-550x699.jpg",
+      "localPath": "/assets/ochi/305-TRAWA_WEB_6-550x699-fb64983b.jpg",
+      "bytes": 25740
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_7-1340x847.jpg",
+      "localPath": "/assets/ochi/306-TRAWA_WEB_7-1340x847-f68eeff0.jpg",
+      "bytes": 129567
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_8-550x500.jpg",
+      "localPath": "/assets/ochi/307-TRAWA_WEB_8-550x500-8ef1177a.jpg",
+      "bytes": 16765
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_9-550x699.jpg",
+      "localPath": "/assets/ochi/308-TRAWA_WEB_9-550x699-2a6e8472.jpg",
+      "bytes": 18845
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_10-1340x847.jpg",
+      "localPath": "/assets/ochi/309-TRAWA_WEB_10-1340x847-f42808e4.jpg",
+      "bytes": 116799
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_10-1-1340x847.jpg",
+      "localPath": "/assets/ochi/310-TRAWA_WEB_10-1-1340x847-56dcfe33.jpg",
+      "bytes": 122196
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_BEFORE-1340x847.jpg",
+      "localPath": "/assets/ochi/311-TRAWA_WEB_BEFORE-1340x847-e1cbc591.jpg",
+      "bytes": 82493
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_AFTER-1340x847.jpg",
+      "localPath": "/assets/ochi/312-TRAWA_WEB_AFTER-1340x847-709a700c.jpg",
+      "bytes": 81011
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/Frame-3875.jpg",
+      "localPath": "/assets/ochi/313-Frame-3875-0b977a9d.jpg",
+      "bytes": 94940
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/Frame-3875-300x242.jpg",
+      "localPath": "/assets/ochi/314-Frame-3875-300x242-01c9980a.jpg",
+      "bytes": 8869
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_1.jpg",
+      "localPath": "/assets/ochi/315-TRAWA_WEB_1-54d11e66.jpg",
+      "bytes": 182656
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_2.jpg",
+      "localPath": "/assets/ochi/316-TRAWA_WEB_2-b158fa31.jpg",
+      "bytes": 85504
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_3.jpg",
+      "localPath": "/assets/ochi/317-TRAWA_WEB_3-eda76e56.jpg",
+      "bytes": 77814
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_4.jpg",
+      "localPath": "/assets/ochi/318-TRAWA_WEB_4-fa966cfd.jpg",
+      "bytes": 81193
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_5.jpg",
+      "localPath": "/assets/ochi/319-TRAWA_WEB_5-0ea88b53.jpg",
+      "bytes": 664428
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_6-1100x1397.jpg",
+      "localPath": "/assets/ochi/320-TRAWA_WEB_6-1100x1397-11122c3c.jpg",
+      "bytes": 79039
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_7.jpg",
+      "localPath": "/assets/ochi/321-TRAWA_WEB_7-0c584966.jpg",
+      "bytes": 202852
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_8.jpg",
+      "localPath": "/assets/ochi/322-TRAWA_WEB_8-0e6e7439.jpg",
+      "bytes": 32060
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_9.jpg",
+      "localPath": "/assets/ochi/323-TRAWA_WEB_9-f5caf2d0.jpg",
+      "bytes": 32750
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_10.jpg",
+      "localPath": "/assets/ochi/324-TRAWA_WEB_10-f3f0c4e5.jpg",
+      "bytes": 223192
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_10-1.jpg",
+      "localPath": "/assets/ochi/325-TRAWA_WEB_10-1-c9eb17dd.jpg",
+      "bytes": 208741
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_BEFORE.jpg",
+      "localPath": "/assets/ochi/326-TRAWA_WEB_BEFORE-4f9045b9.jpg",
+      "bytes": 132080
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2023/08/TRAWA_WEB_AFTER-scaled.jpg",
+      "localPath": "/assets/ochi/327-TRAWA_WEB_AFTER-scaled-09454ca2.jpg",
+      "bytes": 232254
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_6-1340x740.png",
+      "localPath": "/assets/ochi/328-CS_Website_6-1340x740-c296242a.png",
+      "bytes": 581741
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_2-1340x740.png",
+      "localPath": "/assets/ochi/329-CS_Website_2-1340x740-8f3558a2.png",
+      "bytes": 77550
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_3-1340x956.png",
+      "localPath": "/assets/ochi/330-CS_Website_3-1340x956-dc3715e9.png",
+      "bytes": 948094
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_4-550x500.png",
+      "localPath": "/assets/ochi/331-CS_Website_4-550x500-96d47876.png",
+      "bytes": 250398
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_5-550x699.png",
+      "localPath": "/assets/ochi/332-CS_Website_5-550x699-635af593.png",
+      "bytes": 49931
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_11-1340x831.png",
+      "localPath": "/assets/ochi/333-CS_Website_11-1340x831-78ca2fc4.png",
+      "bytes": 58289
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_10-1340x831.png",
+      "localPath": "/assets/ochi/334-CS_Website_10-1340x831-5267a7c5.png",
+      "bytes": 52291
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_15-1340x831.png",
+      "localPath": "/assets/ochi/335-CS_Website_15-1340x831-68f6e2da.png",
+      "bytes": 166240
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_Template-1-1440x921.png",
+      "localPath": "/assets/ochi/336-CS_Website_Template-1-1440x921-2847be4f.png",
+      "bytes": 114824
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_9-1340x740.png",
+      "localPath": "/assets/ochi/337-CS_Website_9-1340x740-ae988d68.png",
+      "bytes": 118600
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_82-1-1340x826.png",
+      "localPath": "/assets/ochi/338-CS_Website_82-1-1340x826-cccaf262.png",
+      "bytes": 667543
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_13-1340x831.png",
+      "localPath": "/assets/ochi/339-CS_Website_13-1340x831-2227aaa7.png",
+      "bytes": 62334
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_14-1340x831.png",
+      "localPath": "/assets/ochi/340-CS_Website_14-1340x831-026bf846.png",
+      "bytes": 214117
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_12-1340x943.png",
+      "localPath": "/assets/ochi/341-CS_Website_12-1340x943-56e3dd82.png",
+      "bytes": 470346
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Before-1340x847.png",
+      "localPath": "/assets/ochi/342-CS_Before-1340x847-f7c40f63.png",
+      "bytes": 764146
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_After-1340x847.png",
+      "localPath": "/assets/ochi/343-CS_After-1340x847-e7a5e136.png",
+      "bytes": 591166
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_1-1024x825.png",
+      "localPath": "/assets/ochi/344-CS_Website_1-1024x825-ef6c8408.png",
+      "bytes": 228353
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_1-300x242.png",
+      "localPath": "/assets/ochi/345-CS_Website_1-300x242-9ba7bc8d.png",
+      "bytes": 33866
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_6.png",
+      "localPath": "/assets/ochi/346-CS_Website_6-8cafd22d.png",
+      "bytes": 1316673
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_2.png",
+      "localPath": "/assets/ochi/347-CS_Website_2-217b6281.png",
+      "bytes": 101944
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_3.png",
+      "localPath": "/assets/ochi/348-CS_Website_3-79b9336e.png",
+      "bytes": 1417261
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_4-1100x1000.png",
+      "localPath": "/assets/ochi/349-CS_Website_4-1100x1000-b458e676.png",
+      "bytes": 881194
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_5-1100x1397.png",
+      "localPath": "/assets/ochi/350-CS_Website_5-1100x1397-dfb98582.png",
+      "bytes": 111726
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_11.png",
+      "localPath": "/assets/ochi/351-CS_Website_11-1074d581.png",
+      "bytes": 70299
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_10.png",
+      "localPath": "/assets/ochi/352-CS_Website_10-9212501f.png",
+      "bytes": 86777
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_15.png",
+      "localPath": "/assets/ochi/353-CS_Website_15-0f61b4c2.png",
+      "bytes": 274702
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_Template-1.png",
+      "localPath": "/assets/ochi/354-CS_Website_Template-1-32165aec.png",
+      "bytes": 65259
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_9.png",
+      "localPath": "/assets/ochi/355-CS_Website_9-9b1c01bf.png",
+      "bytes": 152998
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_82-1.png",
+      "localPath": "/assets/ochi/356-CS_Website_82-1-cc2f9a25.png",
+      "bytes": 479299
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_13.png",
+      "localPath": "/assets/ochi/357-CS_Website_13-7be42883.png",
+      "bytes": 100206
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_14.png",
+      "localPath": "/assets/ochi/358-CS_Website_14-fc7612d1.png",
+      "bytes": 314711
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Website_12.png",
+      "localPath": "/assets/ochi/359-CS_Website_12-801fc0cf.png",
+      "bytes": 716679
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_Before.png",
+      "localPath": "/assets/ochi/360-CS_Before-dc575b30.png",
+      "bytes": 1221800
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2024/08/CS_After.png",
+      "localPath": "/assets/ochi/361-CS_After-28746771.png",
+      "bytes": 875973
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB1-1340x740.jpg",
+      "localPath": "/assets/ochi/362-PB1-1340x740-e38a8a25.jpg",
+      "bytes": 31104
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB3-1340x848.jpg",
+      "localPath": "/assets/ochi/363-PB3-1340x848-112b1085.jpg",
+      "bytes": 138732
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB5-2-1340x848.jpg",
+      "localPath": "/assets/ochi/364-PB5-2-1340x848-7274e003.jpg",
+      "bytes": 109602
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB9-550x500.jpg",
+      "localPath": "/assets/ochi/365-PB9-550x500-af555b77.jpg",
+      "bytes": 15385
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB9.1-550x699.jpg",
+      "localPath": "/assets/ochi/366-PB9-1-550x699-abff5df1.jpg",
+      "bytes": 39260
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB_BEFORE-1-1340x847.jpg",
+      "localPath": "/assets/ochi/367-PB_BEFORE-1-1340x847-95782a1f.jpg",
+      "bytes": 58207
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB_AFTER-1-1340x847.jpg",
+      "localPath": "/assets/ochi/368-PB_AFTER-1-1340x847-5e759947.jpg",
+      "bytes": 66527
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB8-1340x847.jpg",
+      "localPath": "/assets/ochi/369-PB8-1340x847-9597aa40.jpg",
+      "bytes": 48576
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB_Before1-1340x847.jpg",
+      "localPath": "/assets/ochi/370-PB_Before1-1340x847-44b21406.jpg",
+      "bytes": 90877
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB_Before2-1340x847.jpg",
+      "localPath": "/assets/ochi/371-PB_Before2-1340x847-ed017df7.jpg",
+      "bytes": 93898
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB410-1340x848.jpg",
+      "localPath": "/assets/ochi/372-PB410-1340x848-4b85c5cf.jpg",
+      "bytes": 41439
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB92-550x699.jpg",
+      "localPath": "/assets/ochi/373-PB92-550x699-22b57b6e.jpg",
+      "bytes": 20313
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB91-550x500.jpg",
+      "localPath": "/assets/ochi/374-PB91-550x500-3707bd77.jpg",
+      "bytes": 20847
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/Video-1.jpg",
+      "localPath": "/assets/ochi/375-Video-1-3a4765b1.jpg",
+      "bytes": 60109
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB_Intro-1340x847.jpg",
+      "localPath": "/assets/ochi/376-PB_Intro-1340x847-9181bc82.jpg",
+      "bytes": 70468
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB-Front-4-1024x825.png",
+      "localPath": "/assets/ochi/377-PB-Front-4-1024x825-39746829.png",
+      "bytes": 79804
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB-Front-4-300x242.png",
+      "localPath": "/assets/ochi/378-PB-Front-4-300x242-edcbf580.png",
+      "bytes": 15253
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB1-scaled.jpg",
+      "localPath": "/assets/ochi/379-PB1-scaled-890437ed.jpg",
+      "bytes": 78673
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB3.jpg",
+      "localPath": "/assets/ochi/380-PB3-cd6e5f3c.jpg",
+      "bytes": 205979
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB5-2-scaled.jpg",
+      "localPath": "/assets/ochi/381-PB5-2-scaled-f08e58cc.jpg",
+      "bytes": 255598
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB9-1100x1000.jpg",
+      "localPath": "/assets/ochi/382-PB9-1100x1000-9121e4a6.jpg",
+      "bytes": 43867
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB9.1-1100x1398.jpg",
+      "localPath": "/assets/ochi/383-PB9-1-1100x1398-4d208b5f.jpg",
+      "bytes": 117642
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB_BEFORE-1-scaled.jpg",
+      "localPath": "/assets/ochi/384-PB_BEFORE-1-scaled-f3a7b354.jpg",
+      "bytes": 149803
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB_AFTER-1-scaled.jpg",
+      "localPath": "/assets/ochi/385-PB_AFTER-1-scaled-f7b65802.jpg",
+      "bytes": 177478
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB8-scaled.jpg",
+      "localPath": "/assets/ochi/386-PB8-scaled-6f1e7749.jpg",
+      "bytes": 130829
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB_Before1-scaled.jpg",
+      "localPath": "/assets/ochi/387-PB_Before1-scaled-05559c37.jpg",
+      "bytes": 246484
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB_Before2-scaled.jpg",
+      "localPath": "/assets/ochi/388-PB_Before2-scaled-133cafd3.jpg",
+      "bytes": 240130
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB410-scaled.jpg",
+      "localPath": "/assets/ochi/389-PB410-scaled-eb5e0921.jpg",
+      "bytes": 116517
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB92-1100x1399.jpg",
+      "localPath": "/assets/ochi/390-PB92-1100x1399-77cf9f56.jpg",
+      "bytes": 59155
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB91-1100x1000.jpg",
+      "localPath": "/assets/ochi/391-PB91-1100x1000-ef41ff20.jpg",
+      "bytes": 59670
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/12/PB_Intro-scaled.jpg",
+      "localPath": "/assets/ochi/392-PB_Intro-scaled-d01820c7.jpg",
+      "bytes": 179833
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_1-1340x740.jpg",
+      "localPath": "/assets/ochi/393-Planetly_1-1340x740-f1483769.jpg",
+      "bytes": 37119
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_2-1340x848.jpg",
+      "localPath": "/assets/ochi/394-Planetly_2-1340x848-18998604.jpg",
+      "bytes": 56407
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_3-1340x848.jpg",
+      "localPath": "/assets/ochi/395-Planetly_3-1340x848-6bc44209.jpg",
+      "bytes": 133365
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_4-1340x848.jpg",
+      "localPath": "/assets/ochi/396-Planetly_4-1340x848-53726a0d.jpg",
+      "bytes": 87287
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_Illustration_1-550x500.jpg",
+      "localPath": "/assets/ochi/397-Planetly_Illustration_1-550x500-66c24927.jpg",
+      "bytes": 19207
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_Illustration_2-550x700.jpg",
+      "localPath": "/assets/ochi/398-Planetly_Illustration_2-550x700-aa74c471.jpg",
+      "bytes": 16855
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_5-1340x848.jpg",
+      "localPath": "/assets/ochi/399-Planetly_5-1340x848-a3afd1b1.jpg",
+      "bytes": 65192
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_Illustration_3-550x500.jpg",
+      "localPath": "/assets/ochi/400-Planetly_Illustration_3-550x500-aaaf9b11.jpg",
+      "bytes": 13684
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_Illustration_4-550x700.jpg",
+      "localPath": "/assets/ochi/401-Planetly_Illustration_4-550x700-af84c999.jpg",
+      "bytes": 10822
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_7-1340x848.jpg",
+      "localPath": "/assets/ochi/402-Planetly_7-1340x848-93035aec.jpg",
+      "bytes": 135571
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_Illustration_5-550x500.jpg",
+      "localPath": "/assets/ochi/403-Planetly_Illustration_5-550x500-99602197.jpg",
+      "bytes": 15690
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_Illustration_6-550x700.jpg",
+      "localPath": "/assets/ochi/404-Planetly_Illustration_6-550x700-4e746b17.jpg",
+      "bytes": 24534
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_Before-1340x847.jpg",
+      "localPath": "/assets/ochi/405-Planetly_Before-1340x847-92bad06e.jpg",
+      "bytes": 78741
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_After-1340x847.jpg",
+      "localPath": "/assets/ochi/406-Planetly_After-1340x847-f6f6bda3.jpg",
+      "bytes": 82239
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Frame-3866.jpg",
+      "localPath": "/assets/ochi/407-Frame-3866-2c13f19e.jpg",
+      "bytes": 53776
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/10-1024x864.png",
+      "localPath": "/assets/ochi/408-10-1024x864-d7112bbb.png",
+      "bytes": 311717
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/10-300x253.png",
+      "localPath": "/assets/ochi/409-10-300x253-c73bc8b2.png",
+      "bytes": 50284
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_1.jpg",
+      "localPath": "/assets/ochi/410-Planetly_1-d3f142ab.jpg",
+      "bytes": 50437
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_2-scaled.jpg",
+      "localPath": "/assets/ochi/411-Planetly_2-scaled-3a3a5872.jpg",
+      "bytes": 156092
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_3.jpg",
+      "localPath": "/assets/ochi/412-Planetly_3-4c26e569.jpg",
+      "bytes": 199604
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_4-scaled.jpg",
+      "localPath": "/assets/ochi/413-Planetly_4-scaled-29134af7.jpg",
+      "bytes": 220136
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_Illustration_1-1100x1000.jpg",
+      "localPath": "/assets/ochi/414-Planetly_Illustration_1-1100x1000-fa48e8e1.jpg",
+      "bytes": 55157
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_Illustration_2-1100x1400.jpg",
+      "localPath": "/assets/ochi/415-Planetly_Illustration_2-1100x1400-b1c60e42.jpg",
+      "bytes": 45144
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_5-scaled.jpg",
+      "localPath": "/assets/ochi/416-Planetly_5-scaled-bc0d7d3b.jpg",
+      "bytes": 169478
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_Illustration_3-1100x1000.jpg",
+      "localPath": "/assets/ochi/417-Planetly_Illustration_3-1100x1000-a7859b3a.jpg",
+      "bytes": 38448
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_Illustration_4-1100x1400.jpg",
+      "localPath": "/assets/ochi/418-Planetly_Illustration_4-1100x1400-83d45e6f.jpg",
+      "bytes": 31213
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_7.jpg",
+      "localPath": "/assets/ochi/419-Planetly_7-99daf265.jpg",
+      "bytes": 234068
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_Illustration_5-1100x1000.jpg",
+      "localPath": "/assets/ochi/420-Planetly_Illustration_5-1100x1000-8544990f.jpg",
+      "bytes": 41563
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_Illustration_6-1100x1400.jpg",
+      "localPath": "/assets/ochi/421-Planetly_Illustration_6-1100x1400-051df5bd.jpg",
+      "bytes": 70706
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_Before-scaled.jpg",
+      "localPath": "/assets/ochi/422-Planetly_Before-scaled-2f53869b.jpg",
+      "bytes": 214841
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Planetly_After.jpg",
+      "localPath": "/assets/ochi/423-Planetly_After-c782e5e9.jpg",
+      "bytes": 123671
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_1-1340x740.jpg",
+      "localPath": "/assets/ochi/424-BB_WEB_1-1340x740-92a29584.jpg",
+      "bytes": 11569
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_2-1340x848.jpg",
+      "localPath": "/assets/ochi/425-BB_WEB_2-1340x848-9139a3af.jpg",
+      "bytes": 51863
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_3-1340x847.jpg",
+      "localPath": "/assets/ochi/426-BB_WEB_3-1340x847-35162feb.jpg",
+      "bytes": 112417
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_4-1340x848.jpg",
+      "localPath": "/assets/ochi/427-BB_WEB_4-1340x848-288d7b6d.jpg",
+      "bytes": 118702
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_Ill_1-550x500.jpg",
+      "localPath": "/assets/ochi/428-BB_Ill_1-550x500-e26eaf13.jpg",
+      "bytes": 31049
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_Ill_2-550x700.jpg",
+      "localPath": "/assets/ochi/429-BB_Ill_2-550x700-048b99f0.jpg",
+      "bytes": 31684
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_Il_3-550x500.jpg",
+      "localPath": "/assets/ochi/430-BB_Il_3-550x500-6ae03746.jpg",
+      "bytes": 30034
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_Ill_4-1-1-550x699.jpg",
+      "localPath": "/assets/ochi/431-BB_Ill_4-1-1-550x699-22d60ad7.jpg",
+      "bytes": 43600
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_5-1340x847.jpg",
+      "localPath": "/assets/ochi/432-BB_WEB_5-1340x847-e615e7bf.jpg",
+      "bytes": 91551
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/HM_Ipad_Mockup01111-1340x893.jpg",
+      "localPath": "/assets/ochi/433-HM_Ipad_Mockup01111-1340x893-32777e3b.jpg",
+      "bytes": 215191
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_6-1340x847.jpg",
+      "localPath": "/assets/ochi/434-BB_WEB_6-1340x847-a91d0a33.jpg",
+      "bytes": 77513
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Top-View2-1440x921.jpg",
+      "localPath": "/assets/ochi/435-Top-View2-1440x921-e7a7229d.jpg",
+      "bytes": 89782
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_BEFORE-1340x847.jpg",
+      "localPath": "/assets/ochi/436-BB_WEB_BEFORE-1340x847-75366c01.jpg",
+      "bytes": 173378
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_AFTER-2-1340x847.jpg",
+      "localPath": "/assets/ochi/437-BB_WEB_AFTER-2-1340x847-86be37a1.jpg",
+      "bytes": 74178
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/06/Frame-3876-1024x825.jpg",
+      "localPath": "/assets/ochi/438-Frame-3876-1024x825-d419eb18.jpg",
+      "bytes": 51567
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/06/Frame-3876-300x242.jpg",
+      "localPath": "/assets/ochi/439-Frame-3876-300x242-0e729dcc.jpg",
+      "bytes": 7419
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_1.jpg",
+      "localPath": "/assets/ochi/440-BB_WEB_1-da01fd1c.jpg",
+      "bytes": 31615
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_2.jpg",
+      "localPath": "/assets/ochi/441-BB_WEB_2-16992150.jpg",
+      "bytes": 80674
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_3.jpg",
+      "localPath": "/assets/ochi/442-BB_WEB_3-fc926f23.jpg",
+      "bytes": 193466
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_4.jpg",
+      "localPath": "/assets/ochi/443-BB_WEB_4-3cc62b62.jpg",
+      "bytes": 226054
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_Ill_1-1100x1000.jpg",
+      "localPath": "/assets/ochi/444-BB_Ill_1-1100x1000-2f2c5760.jpg",
+      "bytes": 92491
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_Ill_2-1100x1400.jpg",
+      "localPath": "/assets/ochi/445-BB_Ill_2-1100x1400-0f9c6a15.jpg",
+      "bytes": 86994
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_Il_3-1100x1000.jpg",
+      "localPath": "/assets/ochi/446-BB_Il_3-1100x1000-8db3aaad.jpg",
+      "bytes": 88234
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_Ill_4-1-1.jpg",
+      "localPath": "/assets/ochi/447-BB_Ill_4-1-1-899d6813.jpg",
+      "bytes": 82754
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_5.jpg",
+      "localPath": "/assets/ochi/448-BB_WEB_5-1c5bac57.jpg",
+      "bytes": 153775
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/HM_Ipad_Mockup01111-scaled.jpg",
+      "localPath": "/assets/ochi/449-HM_Ipad_Mockup01111-scaled-b652a26f.jpg",
+      "bytes": 721338
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_6.jpg",
+      "localPath": "/assets/ochi/450-BB_WEB_6-96270314.jpg",
+      "bytes": 142621
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Top-View2-scaled.jpg",
+      "localPath": "/assets/ochi/451-Top-View2-scaled-aad86507.jpg",
+      "bytes": 223016
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_BEFORE.jpg",
+      "localPath": "/assets/ochi/452-BB_WEB_BEFORE-9306fadc.jpg",
+      "bytes": 299841
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/BB_WEB_AFTER-2-scaled.jpg",
+      "localPath": "/assets/ochi/453-BB_WEB_AFTER-2-scaled-22c3db50.jpg",
+      "bytes": 191815
+    }
+  ],
+  "skipped": [
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Nina.jpg",
+      "reason": "HTTP 404 for https://ochi.design/wp-content/uploads/2022/05/Nina.jpg"
+    },
+    {
+      "source": "https://ochi.design/wp-content/uploads/2022/05/Jaci.jpg",
+      "reason": "HTTP 404 for https://ochi.design/wp-content/uploads/2022/05/Jaci.jpg"
+    }
+  ]
+}
