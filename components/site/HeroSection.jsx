@@ -4,26 +4,26 @@ import { heroSideImage } from "@/data/siteData";
 
 export default function HeroSection() {
   return (
-    <section className="section-shell relative flex min-h-screen flex-col pb-[9rem] pt-[10rem] md:pb-[12rem] lg:pt-[14rem]">
+    <section className="section-shell relative flex h-screen flex-col pb-[9rem] pt-[6rem] md:pb-[12rem] md:pt-[6.5rem] lg:pt-[8rem]">
       <SiteAwardBadge />
 
       <div className="max-w-[101rem]">
-        <h1 className="h1 hero-title leading-negative mb-[6rem] uppercase md:mb-[10rem]">
-          We create
-          <br />
-          <span className="inline-flex items-center gap-[1rem] align-middle md:gap-[1.4rem]">
-            <img src={heroSideImage} alt="" aria-hidden="true" className="hero-inline-image my-auto" />
+        <h1 className="h1 hero-title mb-[6rem] uppercase md:mb-[9rem] lg:mb-[10rem]">
+          <span className="hero-title__line">We create</span>
+          <span className="hero-title__line hero-title__line--with-image">
+            <img src={heroSideImage} alt="" aria-hidden="true" className="hero-inline-image" />
             <span>eye-opening</span>
           </span>
-          <br />
-          presentations
+          <span className="hero-title__line">presentations</span>
         </h1>
       </div>
 
       <div className="outline-top mt-auto py-[1.5rem]">
         <div className="grid items-center gap-y-[3rem] md:grid-cols-12">
           <p className="mb-0 md:col-span-4 lg:col-span-6">Presentation and storytelling agency</p>
-          <p className="mb-0 md:col-span-4 lg:col-span-3">For innovation teams and global brands</p>
+          <div className="md:col-span-4 lg:col-span-3">
+            <p className="mb-0 max-w-[27.5rem]">For innovation teams and global brands</p>
+          </div>
           <div className="md:col-span-4 md:text-right lg:col-span-3">
             <a href="#contact" className="btn btn--icon-outside">
               <span className="btn__text">Start the project</span>

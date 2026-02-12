@@ -96,21 +96,21 @@ export default function ContactFooter() {
           </div>
         </div>
 
-        <div className="grid gap-y-[1.5rem] md:grid-cols-12 md:items-end">
-          <div className="mb-[4rem] md:col-span-5 md:mb-0 lg:col-span-6">
+        <div className="grid gap-y-[1.5rem] pt-[1.2rem] md:grid-cols-12 md:items-end lg:pt-[1.6rem]">
+          <div className="mb-[3.6rem] md:col-span-5 md:mb-0 lg:col-span-6">
             <a className="inline-flex" href="#top" aria-label="Back to top">
               <OchiLogo />
             </a>
           </div>
 
-          <div className="text-black/30 md:col-span-4 md:-mr-[3rem] lg:col-span-4">
+          <div className="leading-none text-black/30 md:col-span-4 md:-mr-[3rem] lg:col-span-4">
             &copy; ochi design 2026.{" "}
             <a className="link link--underline" href="#contact">
               Legal Terms
             </a>
           </div>
 
-          <div className="text-black/30 md:col-span-3 md:text-right lg:col-span-2">
+          <div className="leading-none text-black/30 md:col-span-3 md:text-right lg:col-span-2">
             <span className="link">Website by Obys</span>
           </div>
         </div>

@@ -86,18 +86,12 @@ export default function Header() {
 
         if (currentY <= threshold) {
           setIsVisible(true);
-          lastScrollYRef.current = currentY;
-          rafIdRef.current = 0;
-          return;
+        } else if (delta > 1.5) {
+          setIsVisible(false);
+        } else if (delta < -1.5) {
+          setIsVisible(true);
         }
 
-        if (Math.abs(delta) < 2) {
-          rafIdRef.current = 0;
-          return;
-        }
-
-        const nextVisible = delta < 0;
-        setIsVisible((previous) => (previous === nextVisible ? previous : nextVisible));
         lastScrollYRef.current = currentY;
         rafIdRef.current = 0;
       });
@@ -123,7 +117,7 @@ export default function Header() {
         data-component="header"
         className={`fixed inset-x-0 top-0 z-30 ${
           open ? "bg-ochi-gray900 text-ochi-gray100" : "header-frosted text-ochi-ink"
-        } ${open || isVisible ? "translate-y-0" : "-translate-y-full"}`}
+        } ${open || isVisible ? "header-state-visible" : "header-state-hidden"}`}
       >
         <div className="section-shell py-[1.5rem]">
           <div className="grid grid-cols-12 items-center gap-x-[1rem]">

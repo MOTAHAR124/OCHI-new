@@ -45,7 +45,7 @@ function FeaturedCard({ project, index }) {
             <span
               key={`${project.title}-${charIndex}`}
               className="featured-project__char"
-              style={{ transitionDelay: `${charIndex * 0.02}s` }}
+              style={{ transitionDelay: `${charIndex * 0.03}s` }}
             >
               {char === " " ? "\u00A0" : char}
             </span>

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import ArrowUpRightIcon from "@/components/site/ArrowUpRightIcon";
 
 const reviewRows = [
@@ -118,13 +119,13 @@ export default function TeamSection() {
 
           return (
             <div key={review.company}>
-              <div className="outline-top grid grid-cols-12 gap-x-[1rem] py-[1.5rem] leading-loose">
+              <div className="outline-top grid grid-cols-12 gap-x-[1rem] py-[1.5rem] leading-[1.35]">
                 <div className="col-span-6 lg:col-span-3">
                   <a
                     href={review.href}
                     target="_blank"
                     rel="noreferrer"
-                    className="link link--underline inline-block bg-transparent text-left transition duration-300 hover:translate-x-[1rem]"
+                    className="review-row-link link link--underline inline-block bg-transparent text-left transition duration-300 hover:translate-x-[1rem]"
                   >
                     {review.company}
                   </a>
@@ -138,7 +139,7 @@ export default function TeamSection() {
                 <div className="col-span-6 text-right lg:col-span-3">
                   <button
                     type="button"
-                    className={`bg-transparent p-0 uppercase ${
+                    className={`review-row-link inline-flex bg-transparent p-0 uppercase leading-none ${
                       isActive ? "review-row-read review-row-read--active" : "link link--underline"
                     }`}
                     onClick={() => setActiveIndex(index)}
@@ -149,42 +150,55 @@ export default function TeamSection() {
                 </div>
               </div>
 
-              {isActive ? (
-                <div className="grid gap-y-[3rem] gap-x-[1rem] py-[4.2rem] lg:grid-cols-12 lg:py-[5.2rem]">
-                  <div className="lg:col-span-3 lg:col-start-4">
-                    <p className="mb-[1.5rem] lg:hidden">Services:</p>
-                    <div className="flex flex-wrap items-start justify-start -mb-[1rem] lg:flex-col">
-                      {review.services.map((service) => (
-                        <div key={`${review.company}-${service}`} className="mb-[1rem] mr-[1rem]">
-                          <a href="#services" className="btn btn--icon-outside-hidden btn--small">
-                            <span className="btn__text">{service}</span>
-                            <span className="btn__icon btn__icon--append" aria-hidden="true">
-                              <ArrowUpRightIcon />
-                            </span>
-                          </a>
+              <AnimatePresence initial={false}>
+                {isActive ? (
+                  <motion.div
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{
+                      height: { duration: 0.5, ease: [0.3, 0.86, 0.36, 0.95] },
+                      opacity: { duration: 0.28, ease: [0.3, 0.86, 0.36, 0.95] }
+                    }}
+                    className="overflow-hidden"
+                  >
+                    <div className="grid gap-y-[3rem] gap-x-[1rem] py-[4.2rem] lg:grid-cols-12 lg:py-[5.2rem]">
+                      <div className="lg:col-span-3 lg:col-start-4">
+                        <p className="mb-[1.5rem] lg:hidden">Services:</p>
+                        <div className="flex flex-wrap items-start justify-start -mb-[1rem] lg:flex-col">
+                          {review.services.map((service) => (
+                            <div key={`${review.company}-${service}`} className="mb-[1rem] mr-[1rem]">
+                              <a href="#services" className="btn btn--icon-outside-hidden btn--small">
+                                <span className="btn__text">{service}</span>
+                                <span className="btn__icon btn__icon--append" aria-hidden="true">
+                                  <ArrowUpRightIcon />
+                                </span>
+                              </a>
+                            </div>
+                          ))}
                         </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div className="lg:col-span-4 lg:col-start-7">
-                    <div className="relative">
-                      <p className="mb-[1.5rem] lg:hidden">{review.reviewer}</p>
-                      <div className="relative mb-[2rem] h-[10rem] w-[10rem] overflow-hidden rounded-[1rem] bg-ochi-gray200">
-                        <Image
-                          src={review.avatar}
-                          alt={review.reviewer}
-                          fill
-                          sizes="10rem"
-                          className="object-cover"
-                          loading="lazy"
-                        />
                       </div>
-                      <p className="mb-0 max-w-[56rem] leading-[1.42]">{review.quote}</p>
+
+                      <div className="lg:col-span-4 lg:col-start-7">
+                        <div className="relative">
+                          <p className="mb-[1.5rem] lg:hidden">{review.reviewer}</p>
+                          <div className="relative mb-[2rem] h-[10rem] w-[10rem] overflow-hidden rounded-[1rem] bg-ochi-gray200">
+                            <Image
+                              src={review.avatar}
+                              alt={review.reviewer}
+                              fill
+                              sizes="10rem"
+                              className="object-cover"
+                              loading="lazy"
+                            />
+                          </div>
+                          <p className="mb-0 max-w-[56rem] leading-[1.42]">{review.quote}</p>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              ) : null}
+                  </motion.div>
+                ) : null}
+              </AnimatePresence>
             </div>
           );
         })}

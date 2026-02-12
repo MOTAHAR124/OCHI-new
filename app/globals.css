@@ -188,8 +188,18 @@ h1,
 [data-component="header"] {
   transition: transform 0.5s cubic-bezier(0.3, 0.86, 0.36, 0.95);
   will-change: transform;
+  transform-origin: top center;
   -webkit-backdrop-filter: blur(5px) saturate(115%);
   backdrop-filter: blur(5px) saturate(115%);
+}
+
+[data-component="header"].header-state-visible {
+  transform: translateY(0) scaleY(1);
+}
+
+[data-component="header"].header-state-hidden {
+  transform: translateY(-100%) scaleY(0);
+  transition-duration: 0.25s;
 }
 
 .header-frosted {
@@ -325,7 +335,7 @@ h1,
   cursor: pointer;
   box-shadow: inset 0 0 0 1px transparent;
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter;
-  transition-duration: 0.3s;
+  transition-duration: 0.45s;
   transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   user-select: none;
   will-change: transform;
@@ -376,7 +386,7 @@ h1,
   font-size: 1rem;
   transition-property: opacity;
   transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  transition-duration: 0.3s;
+  transition-duration: 0.45s;
 }
 
 .btn__icon::after {
@@ -390,7 +400,7 @@ h1,
   background-color: currentColor;
   transform: scale(0.2);
   transform-origin: center;
-  transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: transform 0.45s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .btn__icon svg {
@@ -478,9 +488,9 @@ h1,
   letter-spacing: 0;
   overflow: visible;
   margin-right: 3.6rem;
-  transition: color 0.3s cubic-bezier(0.3, 0.86, 0.36, 0.95),
-    background-color 0.3s cubic-bezier(0.3, 0.86, 0.36, 0.95),
-    border-color 0.3s cubic-bezier(0.3, 0.86, 0.36, 0.95);
+  transition: color 0.45s cubic-bezier(0.3, 0.86, 0.36, 0.95),
+    background-color 0.45s cubic-bezier(0.3, 0.86, 0.36, 0.95),
+    border-color 0.45s cubic-bezier(0.3, 0.86, 0.36, 0.95);
 }
 
 .btn--icon-outside .btn__text {
@@ -503,10 +513,10 @@ h1,
   color: currentColor;
   display: inline-flex;
   margin: 0;
-  transition: color 0.3s cubic-bezier(0.3, 0.86, 0.36, 0.95),
-    background-color 0.3s cubic-bezier(0.3, 0.86, 0.36, 0.95),
-    border-color 0.3s cubic-bezier(0.3, 0.86, 0.36, 0.95),
-    transform 0.3s cubic-bezier(0.3, 0.86, 0.36, 0.95);
+  transition: color 0.45s cubic-bezier(0.3, 0.86, 0.36, 0.95),
+    background-color 0.45s cubic-bezier(0.3, 0.86, 0.36, 0.95),
+    border-color 0.45s cubic-bezier(0.3, 0.86, 0.36, 0.95),
+    transform 0.45s cubic-bezier(0.3, 0.86, 0.36, 0.95);
 }
 
 .btn--icon-outside .btn__icon svg {
@@ -553,6 +563,7 @@ h1,
   color: currentColor;
   display: none;
   margin: 0;
+  opacity: 0;
 }
 
 .btn--icon-outside-hidden .btn__icon::after {
@@ -561,7 +572,7 @@ h1,
 }
 
 .btn--icon-outside-hidden .btn__icon svg {
-  color: #f1f1f1;
+  color: currentColor;
 }
 
 .btn--icon-outside-hidden:focus-visible {
@@ -574,16 +585,7 @@ h1,
   color: #f1f1f1;
   background: #212121;
   border-color: #212121;
-}
-
-@media (min-width: 1280px) {
-  .btn--icon-outside-hidden {
-    margin-right: 3.6rem;
-  }
-
-  .btn--icon-outside-hidden .btn__icon {
-    display: inline-flex;
-  }
+  opacity: 1;
 }
 
 .tag-pill {
@@ -600,12 +602,40 @@ h1,
 }
 
 .hero-title {
-  letter-spacing: -0.018em;
+  font-size: 6.4rem;
+  letter-spacing: -0.01em;
+  line-height: 0.75;
+}
+
+.hero-title__line {
+  display: block;
+}
+
+.hero-title__line--with-image {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 9rem;
+  }
+
+  .hero-title__line--with-image {
+    gap: 1.4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-title {
+    font-size: 10rem;
+  }
 }
 
 @media (min-width: 1280px) {
   .hero-title {
-    font-size: 12.8rem;
+    font-size: 13rem;
   }
 }
 
@@ -704,7 +734,7 @@ h1,
   width: max-content;
   min-width: 100%;
   white-space: nowrap;
-  animation: crawl 10s linear infinite;
+  animation: crawl 40s linear infinite;
 }
 
 .marquee-frame {
@@ -748,7 +778,7 @@ h1,
 .featured-project__char {
   display: inline-block;
   transform: translateY(150%);
-  transition: transform 0.35s cubic-bezier(0.3, 0.86, 0.36, 0.95);
+  transition: transform 0.5s cubic-bezier(0.3, 0.86, 0.36, 0.95);
 }
 
 @media (min-width: 1024px) {
@@ -828,6 +858,7 @@ h1,
     color: #f1f1f1;
     background: #212121;
     border-color: #212121;
+    opacity: 1;
   }
 
   .featured-project__preview:hover .featured-project__media {
@@ -942,12 +973,31 @@ h1,
   background: #f1f1f1;
 }
 
+@media (min-width: 1280px) {
+  .btn--icon-outside-hidden {
+    margin-right: 3.6rem;
+  }
+
+  .btn--icon-outside-hidden .btn__icon {
+    display: inline-flex;
+  }
+}
+
 .review-row-read {
   color: rgba(75, 75, 75, 0.5);
 }
 
 .review-row-read--active {
   pointer-events: none;
+}
+
+.review-row-link {
+  line-height: 1;
+}
+
+.review-row-link.link--underline::after,
+.review-row-link.link--underline::before {
+  bottom: -0.15em;
 }
 
 .rounded-section::before,
@@ -973,7 +1023,12 @@ h1,
 }
 
 .footer-nav li {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.footer-nav .link--underline::after,
+.footer-nav .link--underline::before {
+  bottom: 0;
 }
 
 .eye-pupil {
@@ -983,7 +1038,7 @@ h1,
 
 .eye-pupil__highlight {
   position: absolute;
-  top: 50%;
+  top: 8.5%;
   left: 50%;
   height: 14%;
   width: 14%;

@@ -3,9 +3,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 
-const PUPIL_TRAVEL_FACTOR = 0.56;
-const DEFAULT_HIGHLIGHT_X = -14;
-const DEFAULT_HIGHLIGHT_Y = -14;
+const PUPIL_MOVEMENT_COEFF = 0.03;
 
 function Eye({ label, size, pupilSize, side }) {
   const eyeRef = useRef(null);
@@ -15,46 +13,30 @@ function Eye({ label, size, pupilSize, side }) {
   useEffect(() => {
     const eye = eyeRef.current;
     const pupil = pupilRef.current;
-    const highlight = highlightRef.current;
-    if (!eye || !pupil || !highlight) {
+    if (!eye || !pupil) {
       return undefined;
     }
 
     const moveX = gsap.quickTo(pupil, "x", {
-      duration: 0.2,
+      duration: 0.3,
       ease: "power3.out"
     });
     const moveY = gsap.quickTo(pupil, "y", {
-      duration: 0.2,
-      ease: "power3.out"
-    });
-    const moveHighlightX = gsap.quickTo(highlight, "x", {
-      duration: 0.18,
-      ease: "power3.out"
-    });
-    const moveHighlightY = gsap.quickTo(highlight, "y", {
-      duration: 0.18,
+      duration: 0.3,
       ease: "power3.out"
     });
 
     const animate = (x, y) => {
       const rect = eye.getBoundingClientRect();
-      const pupilRect = pupil.getBoundingClientRect();
-      const highlightRect = highlight.getBoundingClientRect();
       const centerX = rect.left + rect.width / 2;
       const centerY = rect.top + rect.height / 2;
       const dx = x - centerX;
       const dy = y - centerY;
-      const distance = Math.hypot(dx, dy);
-      const angle = Math.atan2(dy, dx);
-      const maxPupilTravel = Math.max((rect.width - pupilRect.width) * 0.5, 0);
-      const pupilDistance = Math.min(distance, maxPupilTravel * PUPIL_TRAVEL_FACTOR);
-      const maxHighlightTravel = Math.max((pupilRect.width - highlightRect.width) * 0.5 - 2, 0);
+      const angle = Math.atan2(x - centerX, -(y - centerY)) * (180 / Math.PI);
 
-      moveX(Math.cos(angle) * pupilDistance);
-      moveY(Math.sin(angle) * pupilDistance);
-      moveHighlightX(Math.cos(angle) * maxHighlightTravel);
-      moveHighlightY(Math.sin(angle) * maxHighlightTravel);
+      moveX(dx * PUPIL_MOVEMENT_COEFF);
+      moveY(dy * PUPIL_MOVEMENT_COEFF);
+      gsap.set(pupil, { rotate: angle, transformOrigin: "center" });
     };
 
     const onPointerMove = (event) => {
@@ -68,8 +50,7 @@ function Eye({ label, size, pupilSize, side }) {
     const resetPupil = () => {
       moveX(0);
       moveY(0);
-      moveHighlightX(DEFAULT_HIGHLIGHT_X);
-      moveHighlightY(DEFAULT_HIGHLIGHT_Y);
+      gsap.set(pupil, { rotate: 0, transformOrigin: "center" });
     };
 
     resetPupil();
@@ -87,7 +68,6 @@ function Eye({ label, size, pupilSize, side }) {
       window.removeEventListener("mouseleave", resetPupil);
       window.removeEventListener("blur", resetPupil);
       gsap.killTweensOf(pupil);
-      gsap.killTweensOf(highlight);
     };
   }, []);
 
@@ -104,12 +84,12 @@ function Eye({ label, size, pupilSize, side }) {
         className="eye-pupil relative grid place-items-center rounded-full bg-[#212121]"
       >
         <span ref={highlightRef} className="eye-pupil__highlight" />
-        {label ? (
-          <span className="eye-label leading-none uppercase text-[#f4f4f4]">
-            {label}
-          </span>
-        ) : null}
       </div>
+      {label ? (
+        <span className="eye-label leading-none uppercase text-[#f4f4f4]">
+          {label}
+        </span>
+      ) : null}
     </div>
   );
 }
