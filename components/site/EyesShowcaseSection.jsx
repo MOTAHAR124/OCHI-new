@@ -25,12 +25,6 @@ export default function EyesShowcaseSection() {
             <EyesBadge label="play" size="min(20rem, 35vw)" pupilSize="min(12rem, 20vw)" />
           </div>
         </div>
-
-        <div className="absolute bottom-[3rem] right-[1.5rem] z-[3] md:right-[3rem]">
-          <button type="button" className="btn btn--primary btn--small">
-            <span className="btn__text">Pause</span>
-          </button>
-        </div>
       </div>
     </section>
   );

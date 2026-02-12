@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import ArrowUpRightIcon from "@/components/site/ArrowUpRightIcon";
 import { aboutImage, socialLinks } from "@/data/siteData";
@@ -69,13 +70,18 @@ export default function AboutNarrativeSection() {
             </a>
           </div>
 
-          <div className="overflow-hidden rounded-[1rem]">
-            <img
-              src={aboutImage}
-              alt="Creative team visual"
-              className="h-full min-h-[26rem] w-full rounded-[1rem] bg-ochi-gray200 object-cover"
-              loading="lazy"
-            />
+          <div>
+            <div className="zoom-hover relative overflow-hidden rounded-[1rem]">
+              <Image
+                src={aboutImage}
+                alt="Creative team visual"
+                width={663}
+                height={469}
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="w-full max-w-full rounded-[1rem] bg-ochi-gray200"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </div>

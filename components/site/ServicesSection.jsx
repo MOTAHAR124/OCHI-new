@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { clientLogos, serviceCards, services } from "@/data/siteData";
 
@@ -44,10 +45,12 @@ export default function ServicesSection() {
           >
             <div className="absolute left-0 top-0 h-full w-full bg-gradient-to-b from-transparent to-black/40" />
             <div className="service-card__media relative h-[24rem] overflow-hidden">
-              <img
+              <Image
                 src={card.image}
                 alt={card.title}
-                className="service-card__image h-full w-full object-cover opacity-70 transition-transform duration-700"
+                fill
+                sizes="(min-width: 768px) 33vw, 100vw"
+                className="service-card__image object-cover opacity-70 transition-transform duration-700"
                 loading="lazy"
               />
             </div>

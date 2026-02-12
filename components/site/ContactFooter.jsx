@@ -35,8 +35,8 @@ export default function ContactFooter() {
           <div className="md:col-span-7 lg:col-span-6">
             <h3 className="h1 leading-negative mb-[4rem] uppercase">presentations</h3>
 
-            <div className="grid gap-[3rem] sm:grid-cols-2">
-              <div className="sm:order-last sm:flex sm:justify-end lg:pr-[4rem]">
+            <div className="grid grid-cols-2 gap-[3rem]">
+              <div className="md:order-last md:flex md:justify-end lg:pr-[4rem]">
                 <div>
                   <p className="mb-[1.5rem]">M:</p>
                   <ul className="footer-nav leading-[1.35]">
@@ -51,7 +51,7 @@ export default function ContactFooter() {
                 </div>
               </div>
 
-              <div className="grid gap-[3rem]">
+              <div className="md:col-span-2">
                 <div>
                   <p className="mb-[1.5rem]">S:</p>
                   <ul className="leading-[1.35]">
@@ -64,32 +64,32 @@ export default function ContactFooter() {
                     ))}
                   </ul>
                 </div>
+              </div>
 
-                <div className="grid gap-[3rem] sm:grid-cols-2">
-                  <div>
-                    <p className="mb-[1.5rem]">L:</p>
-                    <address className="m-0 not-italic">
-                      {locationGroups.map((group, groupIndex) => (
-                        <div
-                          key={`location-group-${groupIndex}`}
-                          className={groupIndex === locationGroups.length - 1 ? "" : "mb-[2.6rem]"}
-                        >
-                          {group.map((line) => (
-                            <span key={line} className="block leading-[1.35]">
-                              <span className="link link--underline">{line}</span>
-                            </span>
-                          ))}
-                        </div>
-                      ))}
-                    </address>
-                  </div>
+              <div className="col-span-2 grid gap-[3rem] md:col-span-1">
+                <div className="leading-[1.5]">
+                  <p className="mb-[1.5rem]">L:</p>
+                  <address className="m-0 not-italic">
+                    {locationGroups.map((group, groupIndex) => (
+                      <div
+                        key={`location-group-${groupIndex}`}
+                        className={groupIndex === locationGroups.length - 1 ? "" : "mb-[2.6rem]"}
+                      >
+                        {group.map((line) => (
+                          <span key={line} className="block leading-[1.35]">
+                            <span className="link link--underline">{line}</span>
+                          </span>
+                        ))}
+                      </div>
+                    ))}
+                  </address>
+                </div>
 
-                  <div>
-                    <p className="mb-[1.5rem]">E:</p>
-                    <a href="mailto:hello@ochi.design" className="link link--underline">
-                      hello@ochi.design
-                    </a>
-                  </div>
+                <div className="leading-[1.5]">
+                  <p className="mb-[1.5rem]">E:</p>
+                  <a href="mailto:hello@ochi.design" className="link link--underline">
+                    hello@ochi.design
+                  </a>
                 </div>
               </div>
             </div>

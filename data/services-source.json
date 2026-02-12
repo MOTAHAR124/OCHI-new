@@ -1,0 +1,525 @@
+{
+  "clientTypes": [
+    {
+      "title": "Innovation & frontier-tech firms",
+      "description": "AI pioneers, space tech visionaries, hardware disruptors - companies building what's never been built before."
+    },
+    {
+      "title": "Established companies & enterprises",
+      "description": "Fortune 500 leaders, global universities, SaaS powerhouses, and iconic consumer brands ready for their next chapter."
+    },
+    {
+      "title": "Industry shifters & cultural catalysts",
+      "description": "From boundary-pushing restaurants to game-changing music festivals - brands rewriting the rules in their field."
+    }
+  ],
+  "phases": [
+    {
+      "number": "01. Phase",
+      "title": "Discovery",
+      "image": "https://ochi.design/wp-content/uploads/2022/05/1.Discovery-194x194.png",
+      "description": "We define your goals, get to know your audience, and understand the context. Through a process of exploration, investigation, and research, we seek the insights that inform our future decisions."
+    },
+    {
+      "number": "02. Phase",
+      "title": "Storytelling",
+      "image": "https://ochi.design/wp-content/uploads/2022/05/2.Structure-194x194.png",
+      "description": "What's core message? How we nudge them towards next steps? We build a story, tone of voice, flow, and narrative to engage our audience. Here we will win people's minds."
+    },
+    {
+      "number": "03. Phase",
+      "title": "Design",
+      "image": "https://ochi.design/wp-content/uploads/2022/05/3.Design-194x194.png",
+      "description": "We use design to guide our audience's attention and keep them engaged. It's not only what you want them to do, but also how you make them feel. We make sure the presentation wins people's hearts and leaves a perfect long-lasting impression."
+    },
+    {
+      "number": "04. Phase",
+      "title": "Testing & Optimization",
+      "image": "https://ochi.design/wp-content/uploads/2022/05/4.Feedback-194x194.png",
+      "description": "We want to stay on the same page. Hence, each phase wraps up presenting the work to you to collect and implement your feedback if such appears."
+    },
+    {
+      "number": "05. Phase",
+      "title": "Delivery",
+      "image": "https://ochi.design/wp-content/uploads/2022/05/5.Delivery-194x194.png",
+      "description": "We will carefully collect and prepare all the project files and post-project insights for long-term success."
+    }
+  ],
+  "capabilityButtons": [
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-38-20-663x450.jpg",
+      "popupId": "popup-service-8",
+      "title": "Investor Deck"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-38-20-663x450.jpg",
+      "popupId": "popup-service-29",
+      "title": "Startup pitch"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-36-20-663x448.jpg",
+      "popupId": "popup-service-28",
+      "title": "Business Proposal"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-36-20-663x448.jpg",
+      "popupId": "popup-service-26",
+      "title": "Company Presentation"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-36-20-663x448.jpg",
+      "popupId": "popup-service-24",
+      "title": "Product Presentation"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-36-20-663x448.jpg",
+      "popupId": "popup-service-25",
+      "title": "Sales Deck"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-36-20-663x448.jpg",
+      "popupId": "popup-service-27",
+      "title": "Service Deck"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-39-20-663x448.jpg",
+      "popupId": "popup-service-23",
+      "title": "Big News Deck"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-39-20-663x448.jpg",
+      "popupId": "popup-service-21",
+      "title": "Branded Template"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-39-20-663x448.jpg",
+      "popupId": "popup-service-19",
+      "title": "Onboarding presentation"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-39-20-663x448.jpg",
+      "popupId": "popup-service-20",
+      "title": "Policy Deck & Playbook"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-34-20-663x448.jpg",
+      "popupId": "popup-service-22",
+      "title": "Progress Report"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-37-20-663x448.jpg",
+      "popupId": "popup-service-18",
+      "title": "Agency"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-37-20-663x448.jpg",
+      "popupId": "popup-service-17",
+      "title": "Branding"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-37-20-663x448.jpg",
+      "popupId": "popup-service-7",
+      "title": "Corporate Training"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-37-20-663x448.jpg",
+      "popupId": "popup-service-16",
+      "title": "Redesign"
+    },
+    {
+      "hoverImage": "https://ochi.design/wp-content/uploads/2022/05/Asset-37-20-663x448.jpg",
+      "popupId": "popup-service-5",
+      "title": "Review"
+    }
+  ],
+  "popups": [
+    {
+      "id": "popup-service-8",
+      "title": "Investor Deck",
+      "paragraphs": [
+        "We help manage investor expectations and secure financing for your business with an excellent investor deck.",
+        "Having a good product or illuminating ideas is not enough anymore. Poor investor presentation may close the door to potential financing right away. In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more."
+      ],
+      "projects": [
+        {
+          "title": "Trawa",
+          "href": "https://ochi.design/case/pitch-deck-and-brand-identity-climatech-startup/"
+        },
+        {
+          "title": "Planetly",
+          "href": "https://ochi.design/case/planetly-climate-tech-pitch-deck-sales-deck/"
+        },
+        {
+          "title": "Black Book",
+          "href": "https://ochi.design/case/black_book-pitch_deck/"
+        }
+      ]
+    },
+    {
+      "id": "popup-service-29",
+      "title": "Startup pitch",
+      "paragraphs": [
+        "Don't miss out on the opportunity and raise funds, whether you're talking to an angel investor, family office, venture capital, or private equity.",
+        "We help to clearly convey your vision in the most concise and compelling way. So that your audience goes \"woah\"."
+      ],
+      "projects": []
+    },
+    {
+      "id": "popup-service-28",
+      "title": "Business Proposal",
+      "paragraphs": [
+        "We hate seeing your competitors stealing your jobs. We don't want your clients to ghost on you, and we certainly don't want you to compromise your price. The bitter difference between closed and lost deals is often the right proposal. Having a properly outlined and designed proposal allows you to charge more, close better deals, and provides your prospect with an insight into your approach. But how do you know what's the right one?",
+        "We will analyze and see what makes your offering unique and what is that that your customer needs that you have to offer.",
+        "Stop guessing and save your time. Let us help you create a proper proposal for you to close more deals."
+      ],
+      "projects": []
+    },
+    {
+      "id": "popup-service-26",
+      "title": "Company Presentation",
+      "paragraphs": [
+        "Bridge the gap between founder values and audience lives with a tailored company presentation.",
+        "We can help your clients understand how you can serve their needs, and how beneficial your company is."
+      ],
+      "projects": [
+        {
+          "title": "Vise",
+          "href": "https://ochi.design/case/vise_company_presentation_design/"
+        }
+      ]
+    },
+    {
+      "id": "popup-service-24",
+      "title": "Product Presentation",
+      "paragraphs": [
+        "Your product is excellent - so should to be your presentation.",
+        "A product presentation benefits a company by spreading awareness of their products and exposing them to new potential clients. It's especially important when delivering the first impression of a new product line to potential clients. Perfect the momentum to encourage action."
+      ],
+      "projects": []
+    },
+    {
+      "id": "popup-service-25",
+      "title": "Sales Deck",
+      "paragraphs": [
+        "Turn your sales meeting into exciting experiences with an eye-catching sales deck for your clients.",
+        "What is meant to be selling becomes a natural conversation. Just within which you manage to showcase your product features, benefits, value proposition, and close deals."
+      ],
+      "projects": [
+        {
+          "title": "Cardboard Spaceship",
+          "href": "https://ochi.design/case/sales-deck-keynote-template/"
+        },
+        {
+          "title": "Fyde",
+          "href": "https://ochi.design/case/fyde-partnership_deck/"
+        },
+        {
+          "title": "Softstart",
+          "href": "https://ochi.design/case/softstart-powerpoint_template/"
+        }
+      ]
+    },
+    {
+      "id": "popup-service-27",
+      "title": "Service Deck",
+      "paragraphs": [
+        "The service deck allows you to present your offerings uniquely to your client the way no one does on the market.",
+        "A perfectly prepared service deck makes the sale so much easier. Hence, it gets your clients to see what you see and on board with your vision."
+      ],
+      "projects": []
+    },
+    {
+      "id": "popup-service-23",
+      "title": "Big News Deck",
+      "paragraphs": [
+        "You need to give your employees or stakeholders a presentation that will impact their lives somehow, and you're stressed as hell. We feel you!",
+        "No one has time for purely communicated ideas, you know that. And you know the price of a bad presentation when someone's career and the future life of the company is at stake. You really need your audience to feel pumped and inspired after the presentation, not frustrated. That's why it's vital to have someone who can help you write the story, design the slides, and prepare you to present your ideas in the best possible way. So that when that acquisition announcement, all-hands meeting, or any big deal presentation comes, you are ready 100%, as are your slides.",
+        "Let us ease your mind and create an important big news presentation for you"
+      ],
+      "projects": [
+        {
+          "title": "Planetly",
+          "href": "https://ochi.design/case/planetly-climate-tech-pitch-deck-sales-deck/"
+        }
+      ]
+    },
+    {
+      "id": "popup-service-21",
+      "title": "Branded Template",
+      "paragraphs": [
+        "Have a custom presentation template tailored to your organization",
+        "Keeping slides and presentations organized is quite a challenge for a team bigger than two people. Especially if you need to present every other day. While online templates are restricted as they were not developed for your specific use case, your team is having a hard time setting a template and finding themselves recreating the same things all the time.",
+        "Our team wants to be as helpful as we can. We create and maintain all the presentation resources for everyone at your company so that any employee can design presentations that look professional and beautiful for their meetings. All these on-brand, easy-to-use, visually beautiful tools are within easy reach while giving each a proper home. We analyze all the possible applications of the template and how your team or other colleagues of yours can use the template to efficiently and stress-free create an excellent presentation in almost no time.",
+        "One time investment - lifetime harvest"
+      ],
+      "projects": [
+        {
+          "title": "Cardboard Spaceship",
+          "href": "https://ochi.design/case/sales-deck-keynote-template/"
+        },
+        {
+          "title": "Premium Blend",
+          "href": "https://ochi.design/case/presentation-template-premium_blend/"
+        },
+        {
+          "title": "Softstart",
+          "href": "https://ochi.design/case/softstart-powerpoint_template/"
+        }
+      ]
+    },
+    {
+      "id": "popup-service-19",
+      "title": "Onboarding presentation",
+      "paragraphs": [
+        "The future of employee experience starts right here. Kick-off employee's success journey with an exciting onboarding presentation.",
+        "The great onboarding presentation increases belonging and put new members on the right track. It's a preliminary insight into organizational structure, culture, and core values. Let us help you make your first impression count."
+      ],
+      "projects": [
+        {
+          "title": "Workiz Easy",
+          "href": "https://ochi.design/case/internal-presentations-sales-deck-onboarding-deck/"
+        }
+      ]
+    },
+    {
+      "id": "popup-service-20",
+      "title": "Policy Deck & Playbook",
+      "paragraphs": [
+        "You want your team to win every game. We get it.",
+        "An effective sales playbook allows organizations to put plans into action by aligning teams around core objectives and sales goals. It defines what needs to be done to achieve these objectives, breaking the team's strategy down into actionable steps. It sounds like the path to success.",
+        "A proper policy deck gets the rules right so that anyone at the company knows the does and don'ts.",
+        "Foster performance and culture with proper policy or playbook presentations."
+      ],
+      "projects": [
+        {
+          "title": "Planetly",
+          "href": "https://ochi.design/case/planetly-climate-tech-pitch-deck-sales-deck/"
+        },
+        {
+          "title": "Workiz Easy",
+          "href": "https://ochi.design/case/internal-presentations-sales-deck-onboarding-deck/"
+        }
+      ]
+    },
+    {
+      "id": "popup-service-22",
+      "title": "Progress Report",
+      "paragraphs": [
+        "A progress report keeps stakeholders on the same page. Well-informed decision-makers are making good decisions.",
+        "Showcase the topic. company, research, or project status update as a beautifully designed document to ensure that the goals are met on time."
+      ],
+      "projects": []
+    },
+    {
+      "id": "popup-service-18",
+      "title": "Agency",
+      "paragraphs": [
+        "Have a presentation team at your disposal.",
+        "Whether you have 250 employees or a small team, it's important to invest their time in what they are good at. Creating presentations is as much a full-time job as their day-to-day job, and not all employees have been trained to make great presentations. Sure, some of them can keep things consistent and on-brand, but most of them are easily dragged away from their duties by figuring out layouts, pairing fonts and color combinations, and choosing the right imagery. And by the end of the day, are you pleased by the quality of these decks?",
+        "Solve this problem by having a dedicated presentation partner that feels almost like an in-house team. We can communicate with every stakeholder and division in your organization and tailor presentations for their specific needs. You will get a dedicated project manager and a team of designers and storytellers tailored to your budget and scope of work. The best part is that you can increase the team when the projects are booming, or you can size down as necessity dictates.",
+        "Get a piece of mind, and let us support you with the presentation projects."
+      ],
+      "projects": [
+        {
+          "title": "Vise",
+          "href": "https://ochi.design/case/vise_company_presentation_design/"
+        },
+        {
+          "title": "Planetly",
+          "href": "https://ochi.design/case/planetly-climate-tech-pitch-deck-sales-deck/"
+        }
+      ]
+    },
+    {
+      "id": "popup-service-17",
+      "title": "Branding",
+      "paragraphs": [
+        "We create brand identities that make bonds with your customers.",
+        "With a strategy in place, we can help you develop a new or rebrand your existing identity and provide you with brand guidelines."
+      ],
+      "projects": []
+    },
+    {
+      "id": "popup-service-7",
+      "title": "Corporate Training",
+      "paragraphs": [
+        "Crafting engaging stories, creating comprehensive charts, or designing beautiful slides it all makes a difference in the workplace. All that can be enhanced and taught.",
+        "You choose the topic, and we prepare and deliver a personalized workshop for your team to get it all right."
+      ],
+      "projects": []
+    },
+    {
+      "id": "popup-service-16",
+      "title": "Redesign",
+      "paragraphs": [
+        "The content is alright, but looks really terrible? A common problem that we see a lot.",
+        "We will professionally redesign your slides so that your presentation performs on a completely different level."
+      ],
+      "projects": [
+        {
+          "title": "Black Book",
+          "href": "https://ochi.design/case/black_book-pitch_deck/"
+        }
+      ]
+    },
+    {
+      "id": "popup-service-5",
+      "title": "Review",
+      "paragraphs": [
+        "A little hesitant about the quality of your presentation?",
+        "We can review and analyze your presentation to find blind spots, weaknesses, or strengths and provide you with the document. It will contain a summary and an actionable list of steps on what and how to improve."
+      ],
+      "projects": [
+        {
+          "title": "Black Book",
+          "href": "https://ochi.design/case/black_book-pitch_deck/"
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "company": "Trawa Energy",
+      "href": "https://www.trawa.de/",
+      "reviewer": "David Budde",
+      "services": [
+        "Branding",
+        "Investor Deck",
+        "Startup pitch"
+      ],
+      "avatar": "https://ochi.design/wp-content/uploads/2023/02/David-Budde-1-300x300.png",
+      "quote": "We were surprised by the accuracy with which Ochi Design nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company."
+    },
+    {
+      "company": "Medallia",
+      "href": "https://www.medallia.com/",
+      "reviewer": "Becky Chastain",
+      "services": [
+        "Branded Template",
+        "Executive Keynote",
+        "Product Launch"
+      ],
+      "avatar": "https://ochi.design/wp-content/uploads/2024/06/Becky-300x300.png",
+      "quote": "The most impressive about Ochi is their attention to detail. They didn't just design presentations but helped us craft a narrative. Easy partnership and alignment with creative team and values."
+    },
+    {
+      "company": "Karman Ventures",
+      "href": "",
+      "reviewer": "William Barnes",
+      "services": [
+        "Investor Deck",
+        "Sales Deck"
+      ],
+      "avatar": "https://ochi.design/wp-content/uploads/2023/02/William-Barnes-1-300x300.png",
+      "quote": "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5"
+    },
+    {
+      "company": "Premium Blend",
+      "href": "https://www.premium-blend.com/",
+      "reviewer": "Ellen Kim",
+      "services": [
+        "Branded Template",
+        "Illustrations"
+      ],
+      "avatar": "https://ochi.design/wp-content/uploads/2022/12/image-677-300x298.png",
+      "quote": "They are truly changing the landscape of presentations!! Fast, effective, and nice humans that listened to every detail of our needs. Creating a deck with their template brings so much joy and ease. We proudly showcase their design in our calls and presentations."
+    },
+    {
+      "company": "Orderlion",
+      "href": "https://orderlion.com/en",
+      "reviewer": "Stefan Strohmer",
+      "services": [
+        "Agency",
+        "Investor Deck",
+        "Product Presentation",
+        "Review",
+        "Sales Deck"
+      ],
+      "avatar": "https://ochi.design/wp-content/uploads/2022/05/Stefan-300x300.jpg",
+      "quote": "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!"
+    },
+    {
+      "company": "Hypercare Systems",
+      "href": "https://hypercare-systems.com/",
+      "reviewer": "Brendan Goss",
+      "services": [
+        "Investor Deck",
+        "Startup pitch"
+      ],
+      "avatar": "https://ochi.design/wp-content/uploads/2022/05/1627398835558-11.png",
+      "quote": "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough."
+    },
+    {
+      "company": "Planetly",
+      "href": "https://www.planetly.com/",
+      "reviewer": "Nina Walloch",
+      "services": [
+        "Agency",
+        "Big News Deck",
+        "Branded Template",
+        "Investor Deck",
+        "Product Presentation",
+        "Sales Deck",
+        "Startup pitch"
+      ],
+      "avatar": "https://ochi.design/wp-content/uploads/2022/05/Nina.jpg.png",
+      "quote": "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership."
+    },
+    {
+      "company": "Workiz Easy",
+      "href": "https://www.workiz.com/",
+      "reviewer": "Tomer Levy",
+      "services": [
+        "Company Presentation",
+        "Onboarding presentation",
+        "Policy Deck & Playbook",
+        "Redesign",
+        "Sales Deck"
+      ],
+      "avatar": "https://ochi.design/wp-content/uploads/2022/05/Tomer.png",
+      "quote": "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed - the final product was exactly what we needed to create a better experience for new employees and our clients."
+    },
+    {
+      "company": "Officevibe",
+      "href": "https://officevibe.com/",
+      "reviewer": "Raff Labrie",
+      "services": [
+        "Branded Template"
+      ],
+      "avatar": "https://ochi.design/wp-content/uploads/2023/10/Photo-300x300.png",
+      "quote": "Ochi has an impressive understanding of what's needed to do an effective presentation. The stakeholders at work said it's the best most complete PP template they've ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!"
+    }
+  ],
+  "why": [
+    {
+      "number": "01",
+      "title": "Story + Design",
+      "description": "Every brand we work with gets tailored messaging, investor-grade clarity, and brand-defining design."
+    },
+    {
+      "number": "02",
+      "title": "Award-winning agency",
+      "description": "You don't have to care about design awards, but know that we do. Beside successful fundraising they're backing our excellence."
+    },
+    {
+      "number": "03",
+      "title": "Ahead of the Curve",
+      "description": "We helped AI, Web3, and deep tech pioneers tell their stories before the world even heard a whisper."
+    },
+    {
+      "number": "04",
+      "title": "A proven revenue engine",
+      "description": "Our work isn't just hell of a beautiful, it drives funding, sales and growth. That's the most important."
+    },
+    {
+      "number": "05",
+      "title": "We pick, you pick",
+      "description": "We view our projects as partnerships and are discerning about companies we ally with."
+    },
+    {
+      "number": "06",
+      "title": "9.3 Happiness Score",
+      "description": "Relationship with the client is our top priority. We put extra effort into keeping mutual respect, honesty and clarity. We continuously measure client happiness score."
+    }
+  ]
+}

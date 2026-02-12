@@ -196,20 +196,20 @@ export const socialLinks = [
 ];
 
 export const headerLinks = [
-  { label: "Services", href: "#services" },
-  { label: "Our work", href: "#featured" },
-  { label: "About us", href: "#team" },
-  { label: "Insights", href: "#services" },
-  { label: "Contact us", href: "#contact" }
+  { label: "Services", href: "/services" },
+  { label: "Our work", href: "/#featured" },
+  { label: "About us", href: "/about" },
+  { label: "Insights", href: "/services" },
+  { label: "Contact us", href: "/#contact" }
 ];
 
 export const footerMenuLinks = [
   { label: "Home", href: "/" },
-  { label: "Services", href: "#services" },
-  { label: "Our work", href: "#featured" },
-  { label: "About us", href: "#team" },
-  { label: "Insights", href: "#services" },
-  { label: "Contact us", href: "#contact" }
+  { label: "Services", href: "/services" },
+  { label: "Our work", href: "/#featured" },
+  { label: "About us", href: "/about" },
+  { label: "Insights", href: "/services" },
+  { label: "Contact us", href: "/#contact" }
 ];
 
 export const officeLocations = [

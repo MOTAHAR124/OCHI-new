@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import ArrowUpRightIcon from "@/components/site/ArrowUpRightIcon";
 import { featuredProjects } from "@/data/siteData";
@@ -27,9 +28,12 @@ function FeaturedCard({ project, index }) {
         className="featured-project__preview relative mb-[1.8rem] block overflow-hidden rounded-[1rem] md:overflow-visible"
       >
         <div className="featured-project__media origin-center overflow-hidden rounded-[1rem] transition-transform duration-500">
-          <img
+          <Image
             src={project.image}
             alt={project.title}
+            width={1326}
+            height={1101}
+            sizes="(min-width: 768px) 50vw, 100vw"
             className="featured-project__image w-full rounded-[1rem] bg-ochi-gray200 transition-transform duration-500"
             loading="lazy"
           />

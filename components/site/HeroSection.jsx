@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ArrowUpRightIcon from "@/components/site/ArrowUpRightIcon";
 import SiteAwardBadge from "@/components/site/SiteAwardBadge";
 import { heroSideImage } from "@/data/siteData";
@@ -11,7 +12,15 @@ export default function HeroSection() {
         <h1 className="h1 hero-title mb-[6rem] uppercase md:mb-[9rem] lg:mb-[10rem]">
           <span className="hero-title__line">We create</span>
           <span className="hero-title__line hero-title__line--with-image">
-            <img src={heroSideImage} alt="" aria-hidden="true" className="hero-inline-image" />
+            <Image
+              src={heroSideImage}
+              alt=""
+              aria-hidden="true"
+              width={130}
+              height={84}
+              className="hero-inline-image"
+              priority
+            />
             <span>eye-opening</span>
           </span>
           <span className="hero-title__line">presentations</span>

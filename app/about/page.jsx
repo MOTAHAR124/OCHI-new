@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { teamMembers } from "@/data/siteData";
 
@@ -69,9 +70,11 @@ export default function AboutPage() {
               key={member.name}
               className="rounded-2xl border border-black/10 bg-white/55 p-5 shadow-sm"
             >
-              <img
+              <Image
                 src={member.avatar}
                 alt={member.name}
+                width={56}
+                height={56}
                 className="h-14 w-14 rounded-full border border-black/15 object-cover"
                 loading="lazy"
               />
