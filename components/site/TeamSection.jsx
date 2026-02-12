@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import ArrowUpRightIcon from "@/components/site/ArrowUpRightIcon";
 
 const reviewRows = [
   {
@@ -155,8 +156,11 @@ export default function TeamSection() {
                     <div className="flex flex-wrap items-start justify-start -mb-[1rem] lg:flex-col">
                       {review.services.map((service) => (
                         <div key={`${review.company}-${service}`} className="mb-[1rem] mr-[1rem]">
-                          <a href="#services" className="btn btn--default btn--small">
+                          <a href="#services" className="btn btn--icon-outside-hidden btn--small">
                             <span className="btn__text">{service}</span>
+                            <span className="btn__icon btn__icon--append" aria-hidden="true">
+                              <ArrowUpRightIcon />
+                            </span>
                           </a>
                         </div>
                       ))}

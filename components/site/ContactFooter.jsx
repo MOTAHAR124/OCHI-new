@@ -21,25 +21,37 @@ const locationGroups = officeLocations
 
 export default function ContactFooter() {
   return (
-    <footer
-      className="relative z-[3] min-h-[100dvh] bg-ochi-gray100 pb-[3rem] pt-[5rem] md:pt-[7rem] lg:pt-[9rem]"
-      id="contact"
-    >
-      <div className="section-shell flex min-h-[calc(100dvh-8rem)] flex-col">
-        <div className="grid flex-1 gap-y-[3rem] md:grid-cols-12">
+    <footer className="relative z-[3] bg-ochi-gray100 pb-[3rem] pt-[7.5rem] lg:pt-[11.5rem]" id="contact">
+      <div className="section-shell">
+        <div className="mb-[4rem] grid gap-y-[1.5rem] md:grid-cols-12 md:gap-y-[1.5rem]">
           <div className="md:col-span-5 lg:col-span-6">
-            <h2 className="h1 leading-negative mb-0 uppercase">
+            <h3 className="h1 leading-negative mb-0 uppercase">
               eye-
               <br />
               opening
-            </h2>
+            </h3>
           </div>
 
           <div className="md:col-span-7 lg:col-span-6">
-            <h2 className="h1 leading-negative mb-[3.5rem] uppercase md:mb-[4.8rem]">presentations</h2>
+            <h3 className="h1 leading-negative mb-[4rem] uppercase">presentations</h3>
 
-            <div className="grid gap-y-[3rem] md:grid-cols-[minmax(0,1fr)_auto] md:gap-x-[9rem]">
-              <div className="space-y-[3rem]">
+            <div className="grid gap-[3rem] sm:grid-cols-2">
+              <div className="sm:order-last sm:flex sm:justify-end lg:pr-[4rem]">
+                <div>
+                  <p className="mb-[1.5rem]">M:</p>
+                  <ul className="footer-nav leading-[1.35]">
+                    {footerMenuLinks.map((item) => (
+                      <li key={item.label}>
+                        <a href={item.href} className="footer-nav__link link link--underline">
+                          {item.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              <div className="grid gap-[3rem]">
                 <div>
                   <p className="mb-[1.5rem]">S:</p>
                   <ul className="leading-[1.35]">
@@ -53,63 +65,52 @@ export default function ContactFooter() {
                   </ul>
                 </div>
 
-                <div>
-                  <p className="mb-[1.5rem]">L:</p>
-                  <address className="m-0 not-italic">
-                    {locationGroups.map((group, groupIndex) => (
-                      <div
-                        key={`location-group-${groupIndex}`}
-                        className={groupIndex === locationGroups.length - 1 ? "" : "mb-[2.6rem]"}
-                      >
-                        {group.map((line) => (
-                          <span key={line} className="block leading-[1.35]">
-                            <span className="link link--underline">{line}</span>
-                          </span>
-                        ))}
-                      </div>
-                    ))}
-                  </address>
-                </div>
+                <div className="grid gap-[3rem] sm:grid-cols-2">
+                  <div>
+                    <p className="mb-[1.5rem]">L:</p>
+                    <address className="m-0 not-italic">
+                      {locationGroups.map((group, groupIndex) => (
+                        <div
+                          key={`location-group-${groupIndex}`}
+                          className={groupIndex === locationGroups.length - 1 ? "" : "mb-[2.6rem]"}
+                        >
+                          {group.map((line) => (
+                            <span key={line} className="block leading-[1.35]">
+                              <span className="link link--underline">{line}</span>
+                            </span>
+                          ))}
+                        </div>
+                      ))}
+                    </address>
+                  </div>
 
-                <div>
-                  <p className="mb-[1.5rem]">E:</p>
-                  <a href="mailto:hello@ochi.design" className="link link--underline">
-                    hello@ochi.design
-                  </a>
+                  <div>
+                    <p className="mb-[1.5rem]">E:</p>
+                    <a href="mailto:hello@ochi.design" className="link link--underline">
+                      hello@ochi.design
+                    </a>
+                  </div>
                 </div>
-              </div>
-
-              <div className="md:pt-[18.5rem] lg:pt-[18rem]">
-                <p className="mb-[1.5rem]">M:</p>
-                <ul className="footer-nav leading-[1.35]">
-                  {footerMenuLinks.map((item) => (
-                    <li key={item.label}>
-                      <a href={item.href} className="footer-nav__link link link--underline">
-                        {item.label}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="grid gap-y-[1.5rem] pt-[3.5rem] md:grid-cols-12 md:items-end">
-          <div className="mb-[2.8rem] md:col-span-5 md:mb-0 lg:col-span-6">
+        <div className="grid gap-y-[1.5rem] md:grid-cols-12 md:items-end">
+          <div className="mb-[4rem] md:col-span-5 md:mb-0 lg:col-span-6">
             <a className="inline-flex" href="#top" aria-label="Back to top">
               <OchiLogo />
             </a>
           </div>
 
-          <div className="text-[rgba(33,33,33,0.35)] md:col-span-4 md:-mr-[3rem] lg:col-span-4">
-            (c) ochi design 2026.{" "}
+          <div className="text-black/30 md:col-span-4 md:-mr-[3rem] lg:col-span-4">
+            &copy; ochi design 2026.{" "}
             <a className="link link--underline" href="#contact">
               Legal Terms
             </a>
           </div>
 
-          <div className="text-[rgba(33,33,33,0.35)] md:col-span-3 md:text-right lg:col-span-2">
+          <div className="text-black/30 md:col-span-3 md:text-right lg:col-span-2">
             <span className="link">Website by Obys</span>
           </div>
         </div>
