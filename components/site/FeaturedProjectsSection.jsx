@@ -85,7 +85,7 @@ export default function FeaturedProjectsSection() {
         </div>
 
         <div className="text-center">
-          <a href="#contact" className="btn btn--primary">
+          <a href="/work" className="btn btn--primary">
             <span className="btn__text">View all case studies</span>
             <span className="btn__icon btn__icon--append" aria-hidden="true">
               <ArrowUpRightIcon />
@@ -94,5 +94,30 @@ export default function FeaturedProjectsSection() {
         </div>
       </div>
     </section>
+  );
+}
+
+export function FeaturedProjectsSectionBody() {
+  return (
+    <div id="featured">
+      <h2 className="mb-[5rem] text-[5rem] leading-[1] md:text-[5rem]">Featured projects</h2>
+
+      <div className="mb-[8rem] lg:mb-[9rem]">
+        <div className="outline-top grid gap-x-[1.8rem] gap-y-[4.8rem] py-[5rem] md:grid-cols-2">
+          {featuredProjects.map((project, index) => (
+            <FeaturedCard key={`${project.client}-${project.title}`} project={project} index={index} />
+          ))}
+        </div>
+      </div>
+
+      <div className="text-center">
+        <a href="/work" className="btn btn--primary">
+          <span className="btn__text">View all case studies</span>
+          <span className="btn__icon btn__icon--append" aria-hidden="true">
+            <ArrowUpRightIcon />
+          </span>
+        </a>
+      </div>
+    </div>
   );
 }

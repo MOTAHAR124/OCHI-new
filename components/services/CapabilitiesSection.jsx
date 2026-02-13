@@ -32,7 +32,10 @@ function ServicePopup({ serviceName, onClose }) {
       data-component="popup"
     >
       <button type="button" className="absolute left-0 top-0 h-full w-full bg-ochi-gray900/80" onClick={onClose} aria-label="Close popup" />
-      <div className="popup-scroller rounded-[1.5rem] bg-ochi-gray100 max-h-full w-full overflow-y-auto overflow-x-hidden p-[2rem]">
+      <div
+        className="popup-scroller rounded-[1.5rem] bg-ochi-gray100 max-h-full w-full overflow-y-auto overflow-x-hidden p-[2rem]"
+        data-lenis-prevent
+      >
         <div className="mb-[5rem] flex items-center justify-between">
           <span className="flex-grow">
             <u>{details.title}</u>

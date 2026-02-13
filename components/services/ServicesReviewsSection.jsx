@@ -10,7 +10,7 @@ export default function ServicesReviewsSection() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="rounded-section relative bg-ochi-gray100 py-[4.5rem] lg:py-[7.5rem]">
+    <section className="rounded-section relative z-[3] bg-ochi-gray100 py-[4.5rem] lg:py-[7.5rem]">
       <div className="section-shell">
         <h2 className="mb-[4rem] text-[3.1rem] leading-[1] md:text-[4rem] lg:text-[5.2rem]">Clients&apos; reviews</h2>
 

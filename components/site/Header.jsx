@@ -1,18 +1,27 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import OchiLogo from "@/components/site/OchiLogo";
 import { headerLinks, officeLocations, socialLinks } from "@/data/siteData";
 
-function NavLink({ label, href, onClick, animated = false }) {
+function NavLink({ label, href, onClick, animated = false, active = false }) {
   if (!animated) {
-    return <Link href={href} className="link main-nav__link" onClick={onClick}>{label}</Link>;
+    return (
+      <Link
+        href={href}
+        className={`link main-nav__link${active ? " link--underline main-nav__link--active" : ""}`}
+        onClick={onClick}
+      >
+        {label}
+      </Link>
+    );
   }
 
   return (
-    <Link href={href} className="link link--custom main-nav__link" onClick={onClick}>
+    <Link href={href} className={`link link--custom main-nav__link${active ? " link--active" : ""}`} onClick={onClick}>
       <span className="link__inner">
         <span className="link__default-text">{label}</span>
         <span className="link__hover-text">{label}</span>
@@ -22,6 +31,8 @@ function NavLink({ label, href, onClick, animated = false }) {
 }
 
 export default function Header() {
+  const pathname = usePathname();
+  const [hash, setHash] = useState(() => (typeof window !== "undefined" ? window.location.hash || "" : ""));
   const [open, setOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
   const [headerHeight, setHeaderHeight] = useState(64);
@@ -40,6 +51,18 @@ export default function Header() {
       document.body.style.overflow = "";
     };
   }, [open]);
+
+  useEffect(() => {
+    const updateHash = () => {
+      setHash(window.location.hash || "");
+    };
+
+    window.addEventListener("hashchange", updateHash);
+
+    return () => {
+      window.removeEventListener("hashchange", updateHash);
+    };
+  }, []);
 
   useEffect(() => {
     const updateHeaderHeight = () => {
@@ -108,9 +131,57 @@ export default function Header() {
     };
   }, [open]);
 
+  const isWorkPage = pathname === "/work";
+  const normalizePath = (value) => {
+    if (!value || value === "/") {
+      return "/";
+    }
+    return value.replace(/\/+$/, "");
+  };
+
+  const matchesPath = (currentPath, targetPath) => {
+    if (targetPath === "/") {
+      return currentPath === "/";
+    }
+    return currentPath === targetPath || currentPath.startsWith(`${targetPath}/`);
+  };
+
+  const currentPath = normalizePath(pathname || "/");
+  const currentHash = hash || (typeof window !== "undefined" ? window.location.hash || "" : "");
+
+  const isHeaderLinkActive = (item) => {
+    if (item.label === "Services") {
+      return matchesPath(currentPath, "/services");
+    }
+    if (item.label === "Our work") {
+      return matchesPath(currentPath, "/work");
+    }
+    if (item.label === "About us") {
+      return matchesPath(currentPath, "/about");
+    }
+    if (item.label === "Insights") {
+      return matchesPath(currentPath, "/insights");
+    }
+    if (item.label === "Contact us") {
+      return matchesPath(currentPath, "/contact") || (currentPath === "/" && currentHash === "#contact");
+    }
+
+    const [rawPath, rawHash] = item.href.split("#");
+    const targetPath = normalizePath(rawPath || "/");
+    if (rawHash) {
+      return currentPath === targetPath && currentHash === `#${rawHash}`;
+    }
+
+    return matchesPath(currentPath, targetPath);
+  };
+
   return (
     <>
-      <div aria-hidden="true" style={{ height: `${headerHeight}px` }} />
+      <div
+        aria-hidden="true"
+        className={isWorkPage ? "bg-ochi-lime" : undefined}
+        style={{ height: `${headerHeight}px` }}
+      />
 
       <header
         ref={headerRef}
@@ -131,7 +202,7 @@ export default function Header() {
               <ul className="header-nav flex-grow text-[1.6rem] leading-none">
                 {headerLinks.map((item) => (
                   <li key={item.label}>
-                    <NavLink label={item.label} href={item.href} animated />
+                    <NavLink label={item.label} href={item.href} active={isHeaderLinkActive(item)} animated />
                   </li>
                 ))}
               </ul>
@@ -184,13 +255,13 @@ export default function Header() {
             style={{ top: `${headerHeight}px`, height: `calc(100vh - ${headerHeight}px)` }}
           >
             <div className="section-shell h-full pb-[3rem] pt-[6rem]">
-              <div className="outline-top h-full overflow-y-auto">
+              <div className="outline-top h-full overflow-y-auto" data-lenis-prevent>
                 <ul className="mb-[7.5rem] grid gap-[1.5rem] py-[1.5rem]">
                   {headerLinks.map((item) => (
                     <li key={item.label}>
                       <Link
                         href={item.href}
-                        className="h1 leading-negative uppercase"
+                        className={`h1 leading-negative uppercase${isHeaderLinkActive(item) ? " link link--underline" : ""}`}
                         onClick={() => setOpen(false)}
                       >
                         {item.label}

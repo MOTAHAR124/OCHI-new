@@ -197,7 +197,7 @@ export const socialLinks = [
 
 export const headerLinks = [
   { label: "Services", href: "/services" },
-  { label: "Our work", href: "/#featured" },
+  { label: "Our work", href: "/work" },
   { label: "About us", href: "/about" },
   { label: "Insights", href: "/services" },
   { label: "Contact us", href: "/#contact" }
@@ -206,7 +206,7 @@ export const headerLinks = [
 export const footerMenuLinks = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
-  { label: "Our work", href: "/#featured" },
+  { label: "Our work", href: "/work" },
   { label: "About us", href: "/about" },
   { label: "Insights", href: "/services" },
   { label: "Contact us", href: "/#contact" }

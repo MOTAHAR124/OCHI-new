@@ -24,7 +24,7 @@ export default function ServicesPage() {
       <CapabilitiesSection />
       <ServicesReviewsSection />
       <WhyUsSection />
-      <ReadyToStartSection />
+      <ReadyToStartSection withParallax withScrollShift />
       <ContactFooter />
     </>
   );

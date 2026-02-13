@@ -106,11 +106,11 @@ const reviewRows = [
   }
 ];
 
-export default function TeamSection() {
+export function TeamSectionBody() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section id="team" className="section-shell pb-[9rem]">
+    <div id="team">
       <h2 className="mb-[5rem] text-[4.5rem] leading-[1] md:text-[5rem]">Clients&apos; reviews</h2>
 
       <div className="outline-bottom mb-[6rem] lg:mb-[10rem]">
@@ -268,6 +268,16 @@ export default function TeamSection() {
             </div>
           </a>
         </div>
+      </div>
+    </div>
+  );
+}
+
+export default function TeamSection() {
+  return (
+    <section className="bg-ochi-gray100">
+      <div className="section-shell pb-[9rem]">
+        <TeamSectionBody />
       </div>
     </section>
   );
