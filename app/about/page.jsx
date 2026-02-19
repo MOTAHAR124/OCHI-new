@@ -17,7 +17,7 @@ export default function AboutPage() {
       <AboutHeroSection />
       <AboutCommitmentsSection />
       <AboutPreCtaSection />
-      <ReadyToStartSection withParallax startProjectHref="/contact" />
+      <ReadyToStartSection withParallax startProjectHref="/contact" eyesMultiplier={0.8} />
       <ContactFooter />
       <AboutCustomCursor />
     </>
