@@ -192,15 +192,15 @@ export const socialLinks = [
   { label: "Instagram", href: "https://www.instagram.com/ochi_design/" },
   { label: "Behance", href: "https://www.behance.net/ochi_design" },
   { label: "Facebook", href: "https://www.facebook.com/OCHI-presentation-design-103605044779378/" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/56403597" }
+  { label: "Linkedin", href: "https://www.linkedin.com/company/56403597" }
 ];
 
 export const headerLinks = [
   { label: "Services", href: "/services" },
   { label: "Our work", href: "/work" },
   { label: "About us", href: "/about" },
-  { label: "Insights", href: "/services" },
-  { label: "Contact us", href: "/#contact" }
+  { label: "Insights", href: "/insights" },
+  { label: "Contact us", href: "/contact" }
 ];
 
 export const footerMenuLinks = [
@@ -208,8 +208,8 @@ export const footerMenuLinks = [
   { label: "Services", href: "/services" },
   { label: "Our work", href: "/work" },
   { label: "About us", href: "/about" },
-  { label: "Insights", href: "/services" },
-  { label: "Contact us", href: "/#contact" }
+  { label: "Insights", href: "/insights" },
+  { label: "Contact us", href: "/contact" }
 ];
 
 export const officeLocations = [

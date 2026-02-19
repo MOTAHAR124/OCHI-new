@@ -19,13 +19,13 @@ function FeaturedCard({ project, index }) {
       className="featured-project relative"
     >
       <div className="mb-[1.5rem] flex items-center text-[1.4rem] uppercase leading-none">
-        <span className="mr-[0.8rem] h-[0.9rem] w-[0.9rem] rounded-full bg-current" />
+        <span className="mr-[0.8rem] h-[1rem] w-[1rem] rounded-full bg-current" />
         <span>{project.client}</span>
       </div>
 
       <a
         href="#contact"
-        className="featured-project__preview relative mb-[1.8rem] block overflow-hidden rounded-[1rem] md:overflow-visible"
+        className="featured-project__preview relative mb-[1.5rem] block overflow-hidden rounded-[1rem] md:overflow-visible"
       >
         <div className="featured-project__media origin-center overflow-hidden rounded-[1rem] transition-transform duration-500">
           <Image
@@ -49,7 +49,7 @@ function FeaturedCard({ project, index }) {
             <span
               key={`${project.title}-${charIndex}`}
               className="featured-project__char"
-              style={{ transitionDelay: `${charIndex * 0.03}s` }}
+              style={{ transitionDelay: `${charIndex * 0.02}s` }}
             >
               {char === " " ? "\u00A0" : char}
             </span>
@@ -73,11 +73,11 @@ function FeaturedCard({ project, index }) {
 export default function FeaturedProjectsSection() {
   return (
     <section id="featured" className="bg-ochi-gray100">
-      <div className="section-shell pb-[11rem] pt-[4.8rem] lg:pb-[13rem] lg:pt-[7.4rem]">
-        <h2 className="mb-[5rem] text-[5rem] leading-[1] md:text-[5rem]">Featured projects</h2>
+      <div className="section-shell pb-[12rem] pt-[5rem] lg:pb-[15rem] lg:pt-[9rem]">
+        <h2 className="mb-[4rem]">Featured projects</h2>
 
-        <div className="mb-[8rem] lg:mb-[9rem]">
-          <div className="outline-top grid gap-x-[1.8rem] gap-y-[4.8rem] py-[5rem] md:grid-cols-2">
+        <div className="mb-[8rem] lg:mb-[12rem]">
+          <div className="outline-top grid gap-x-[1.5rem] gap-y-[4rem] py-[5rem] md:grid-cols-2 xl:gap-y-[5rem]">
             {featuredProjects.map((project, index) => (
               <FeaturedCard key={`${project.client}-${project.title}`} project={project} index={index} />
             ))}
@@ -100,10 +100,10 @@ export default function FeaturedProjectsSection() {
 export function FeaturedProjectsSectionBody() {
   return (
     <div id="featured">
-      <h2 className="mb-[5rem] text-[5rem] leading-[1] md:text-[5rem]">Featured projects</h2>
+      <h2 className="mb-[4rem]">Featured projects</h2>
 
-      <div className="mb-[8rem] lg:mb-[9rem]">
-        <div className="outline-top grid gap-x-[1.8rem] gap-y-[4.8rem] py-[5rem] md:grid-cols-2">
+      <div className="mb-[8rem] lg:mb-[12rem]">
+        <div className="outline-top grid gap-x-[1.5rem] gap-y-[4rem] py-[5rem] md:grid-cols-2 xl:gap-y-[5rem]">
           {featuredProjects.map((project, index) => (
             <FeaturedCard key={`${project.client}-${project.title}`} project={project} index={index} />
           ))}

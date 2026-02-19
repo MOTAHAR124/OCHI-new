@@ -14,7 +14,7 @@ export default function HomePage() {
       <AboutNarrativeSection />
       <EyesShowcaseSection />
       <ProjectsReviewsSection />
-      <ReadyToStartSection withParallax withScrollShift />
+      <ReadyToStartSection withParallax />
       <ContactFooter />
     </>
   );

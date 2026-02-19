@@ -3,7 +3,13 @@
 import { useEffect, useMemo, useRef } from "react";
 import gsap from "gsap";
 
-function EyeSvg({ side, groupRef }) {
+function EyeSvg({
+  side,
+  groupRef,
+  withStroke = false,
+  strokeColor = "rgba(0, 0, 0, 0.2)",
+  label = ""
+}) {
   return (
     <svg
       className="h-auto w-full flex-grow overflow-visible"
@@ -14,18 +20,26 @@ function EyeSvg({ side, groupRef }) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <circle cx="100" cy="100" r="100" fill="#F4F4F4" />
+      <circle cx="100" cy="100" r="100" fill="#F4F4F4" stroke={withStroke ? strokeColor : "none"} />
       <g ref={groupRef} className="eyes-svg__group origin-center">
         <circle cx="100" cy="100" r="60" fill="#212121" />
         <circle cx="100" cy="50" r="8" fill="#F4F4F4" />
       </g>
+      {label ? (
+        <text className="uppercase" x="100" y="105" textAnchor="middle" fill="#F4F4F4">
+          {label}
+        </text>
+      ) : null}
     </svg>
   );
 }
 
 export default function MouseReactiveEyesSvg({
   className = "",
-  movementCoeff = 0.03
+  movementCoeff = 0.03,
+  withStroke = false,
+  strokeColor = "rgba(0, 0, 0, 0.2)",
+  label = ""
 }) {
   const holderRef = useRef(null);
   const leftEyeRef = useRef(null);
@@ -116,12 +130,23 @@ export default function MouseReactiveEyesSvg({
       className={`grid w-full grid-cols-2 items-center justify-center gap-[8.333333%] ${className}`}
     >
       <div ref={leftEyeRef}>
-        <EyeSvg side="left" groupRef={leftGroupRef} />
+        <EyeSvg
+          side="left"
+          groupRef={leftGroupRef}
+          withStroke={withStroke}
+          strokeColor={strokeColor}
+          label={label}
+        />
       </div>
       <div ref={rightEyeRef}>
-        <EyeSvg side="right" groupRef={rightGroupRef} />
+        <EyeSvg
+          side="right"
+          groupRef={rightGroupRef}
+          withStroke={withStroke}
+          strokeColor={strokeColor}
+          label={label}
+        />
       </div>
     </div>
   );
 }
-

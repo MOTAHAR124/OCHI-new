@@ -22,6 +22,8 @@ export default function ScrollProgressShift({
   className = "",
   children,
   multiplier = 1,
+  fromMultiplier = 0,
+  toMultiplier,
   offset = ["end end", "end start"]
 }) {
   const targetRef = useRef(null);
@@ -33,7 +35,8 @@ export default function ScrollProgressShift({
     offset
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], [0, viewportHeight * multiplier]);
+  const resolvedToMultiplier = typeof toMultiplier === "number" ? toMultiplier : multiplier;
+  const y = useTransform(scrollYProgress, [0, 1], [viewportHeight * fromMultiplier, viewportHeight * resolvedToMultiplier]);
 
   return (
     <div ref={targetRef} className={className}>

@@ -8,7 +8,7 @@ export default function WorkPublicationsSection() {
   return (
     <RoundedSection className="bg-ochi-green text-white">
       <div className="h-full w-full overflow-hidden">
-        <ScrollProgressShift className="section-shell pb-[7.5rem] pt-[5rem] lg:pb-[11rem] lg:pt-[8.5rem]" multiplier={1.2}>
+        <ScrollProgressShift className="section-shell pb-[7.5rem] pt-[5rem] lg:pb-[11rem] lg:pt-[8.5rem]" multiplier={1}>
           <div className="outline-top outline-bottom mb-[1.5rem] py-[1.5rem]">
             <div className="crawling-line-large inline-flex whitespace-nowrap uppercase">
               {Array.from({ length: 4 }).map((_, index) => (

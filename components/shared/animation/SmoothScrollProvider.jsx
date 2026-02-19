@@ -24,21 +24,36 @@ function isUnmodifiedLeftClick(event) {
 
 export default function SmoothScrollProvider({ children }) {
   useEffect(() => {
+    const updateDynamicVh = () => {
+      document.documentElement.style.setProperty("--vh-dynamic", `${window.innerHeight}px`);
+    };
+    const setStaticVh = () => {
+      document.documentElement.style.setProperty("--vh-static", `${window.innerHeight}px`);
+    };
+
+    setStaticVh();
+    updateDynamicVh();
+    window.addEventListener("resize", updateDynamicVh);
+    window.addEventListener("orientationchange", updateDynamicVh);
+
     const reducedMotionMedia = window.matchMedia("(prefers-reduced-motion: reduce)");
-    if (reducedMotionMedia.matches) {
+    const shouldUseSmoothScroll = window.innerWidth >= 1200;
+    if (reducedMotionMedia.matches || !shouldUseSmoothScroll) {
       document.documentElement.dataset.smoothScroll = "native";
-      return undefined;
+      return () => {
+        window.removeEventListener("resize", updateDynamicVh);
+        window.removeEventListener("orientationchange", updateDynamicVh);
+      };
     }
 
+    const viewportScale = Math.max(1, window.innerWidth / 1440);
     const lenis = new Lenis({
       autoRaf: false,
       smoothWheel: true,
-      lerp: 0.085,
-      wheelMultiplier: 0.92,
-      syncTouch: true,
-      syncTouchLerp: 0.075,
-      touchInertiaExponent: 1.45,
-      touchMultiplier: 1.04,
+      lerp: 0.15,
+      wheelMultiplier: 0.6 * viewportScale,
+      syncTouch: false,
+      touchMultiplier: 2,
       overscroll: false,
       stopInertiaOnNavigate: true,
       prevent: (node) => node?.hasAttribute?.("data-lenis-prevent") ?? false
@@ -126,6 +141,8 @@ export default function SmoothScrollProvider({ children }) {
         delete window.__ochiLenis;
       }
       document.documentElement.dataset.smoothScroll = "native";
+      window.removeEventListener("resize", updateDynamicVh);
+      window.removeEventListener("orientationchange", updateDynamicVh);
     };
   }, []);
 

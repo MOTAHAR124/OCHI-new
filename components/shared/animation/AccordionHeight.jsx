@@ -3,11 +3,15 @@
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { OCHI_EASE } from "@/components/shared/animation/motionConfig";
 
-export default function AccordionHeight({ open, children, className = "" }) {
+export default function AccordionHeight({ open, children, className = "", ...props }) {
   const reducedMotion = useReducedMotion();
 
   if (reducedMotion) {
-    return open ? <div className={className}>{children}</div> : null;
+    return open ? (
+      <div className={className} {...props}>
+        {children}
+      </div>
+    ) : null;
   }
 
   return (
@@ -15,6 +19,7 @@ export default function AccordionHeight({ open, children, className = "" }) {
       {open ? (
         <motion.div
           className={className}
+          {...props}
           initial={{ height: 0, opacity: 0 }}
           animate={{ height: "auto", opacity: 1 }}
           exit={{ height: 0, opacity: 0 }}

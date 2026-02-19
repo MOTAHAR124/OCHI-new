@@ -1,4 +1,5 @@
 import RoundedSection from "@/components/shared/layout/RoundedSection";
+import ScrollProgressShift from "@/components/shared/animation/ScrollProgressShift";
 import WorkProjectCard from "@/components/work/WorkProjectCard";
 import { workCards } from "@/data/workPageData";
 
@@ -6,7 +7,7 @@ export default function WorkProjectsSection() {
   return (
     <RoundedSection className="bg-ochi-gray100">
       <div className="h-full w-full">
-        <div className="section-shell py-[4.5rem] lg:py-[7.5rem]">
+        <ScrollProgressShift className="section-shell py-[4.5rem] lg:py-[7.5rem]" multiplier={1}>
           <h2 className="custom-heading mb-[6rem] lg:mb-[7rem]">
             Purpose driven,{" "}
             <span className="link link--underline inline-block">strategy-led presentations</span>
@@ -19,7 +20,7 @@ export default function WorkProjectsSection() {
               <WorkProjectCard key={`${item.title}-${item.href}`} item={item} />
             ))}
           </div>
-        </div>
+        </ScrollProgressShift>
       </div>
     </RoundedSection>
   );

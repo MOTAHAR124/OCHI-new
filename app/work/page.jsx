@@ -16,7 +16,7 @@ export default function WorkPage() {
       <WorkHeroSection />
       <WorkProjectsSection />
       <WorkPublicationsSection />
-      <ReadyToStartSection withParallax withScrollShift />
+      <ReadyToStartSection withParallax />
       <ContactFooter />
     </div>
   );

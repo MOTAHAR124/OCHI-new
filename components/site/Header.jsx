@@ -131,7 +131,6 @@ export default function Header() {
     };
   }, [open]);
 
-  const isWorkPage = pathname === "/work";
   const normalizePath = (value) => {
     if (!value || value === "/") {
       return "/";
@@ -177,12 +176,6 @@ export default function Header() {
 
   return (
     <>
-      <div
-        aria-hidden="true"
-        className={isWorkPage ? "bg-ochi-lime" : undefined}
-        style={{ height: `${headerHeight}px` }}
-      />
-
       <header
         ref={headerRef}
         data-component="header"
