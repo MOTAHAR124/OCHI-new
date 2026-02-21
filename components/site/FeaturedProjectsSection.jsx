@@ -14,7 +14,7 @@ function FeaturedCard({ project, index }) {
     <motion.article
       initial={{ opacity: 0, y: 28 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.24 }}
+      viewport={{ once: true, amount: 0, margin: "0px 0px 22% 0px" }}
       transition={{ duration: 0.45, delay: index * 0.03 }}
       className="featured-project relative"
     >

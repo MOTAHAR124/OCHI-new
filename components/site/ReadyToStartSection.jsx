@@ -49,7 +49,7 @@ export default function ReadyToStartSection({
   const sectionRef = useRef(null);
   const shellPadding = "py-[7rem] md:py-[8.5rem] xl:py-[14rem]";
   const desktopEyesLayerClass =
-    "pointer-events-none hidden w-full will-change-transform xl:absolute xl:left-0 xl:top-0 xl:z-[2] xl:block xl:h-[calc(100vh+1.5rem)]";
+    "pointer-events-none hidden w-full will-change-transform xl:absolute xl:left-0 xl:top-0 xl:z-[2] xl:block xl:h-[100vh]";
   const mobileEyesLayerClass = "pointer-events-none mb-[4rem] w-full xl:hidden";
 
   return (
@@ -68,7 +68,7 @@ export default function ReadyToStartSection({
         </SmoothEyesParallax>
 
         <ScrollProgressShift className={`section-shell relative ${shellPadding}`} multiplier={contentMultiplier}>
-          <div className="text-center">
+          <div className="w-full text-center">
             <h2 className="heading-large leading-negative mb-[4rem] uppercase">
               Ready
               <br />

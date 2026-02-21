@@ -48,3 +48,9 @@ The UI reads `data/ochi-asset-manifest.json` first and falls back to bundled pla
 - `/` homepage with hero, featured projects, team/about, services, and contact footer
 - `/about` secondary about page
 
+## Full Project Documentation
+
+For complete architecture, data-flow, component breakdown, and implementation notes, see:
+
+- `PROJECT_DETAILS.md`
+

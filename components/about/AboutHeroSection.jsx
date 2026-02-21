@@ -85,7 +85,7 @@ export default function AboutHeroSection() {
           </div>
 
           <div className="mb-[6rem] lg:mb-[10rem]">
-            <div className="relative z-[1] flex min-h-[40rem] w-full overflow-hidden rounded-[1.5rem]">
+            <div className="relative z-[1] flex min-h-[40rem] w-full overflow-hidden rounded-[1rem]">
               <ScrollProgressShift
                 className="relative h-full w-full will-change-transform"
                 multiplier={-0.2}
@@ -96,7 +96,7 @@ export default function AboutHeroSection() {
                   alt="Ochi team"
                   width={1340}
                   height={858}
-                  className="about-hero-photo h-full w-full max-w-full scale-[1.12] bg-ochi-gray200 object-cover"
+                  className="about-hero-photo h-full w-full max-w-full bg-ochi-gray200 object-cover"
                   priority
                 />
               </ScrollProgressShift>
