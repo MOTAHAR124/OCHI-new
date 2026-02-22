@@ -1,23 +1,36 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ArrowUpRightIcon from "@/components/site/ArrowUpRightIcon";
 import LazyRevealImage from "@/components/shared/animation/LazyRevealImage";
 import { contactHeroData } from "@/data/contactPageData";
 
 export default function ContactFormSection() {
   const [hasAcceptedPolicy, setHasAcceptedPolicy] = useState(false);
+  const [isHeroReady, setIsHeroReady] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
   };
 
+  useEffect(() => {
+    let raf = 0;
+    raf = window.requestAnimationFrame(() => {
+      setIsHeroReady(true);
+    });
+    return () => {
+      if (raf) {
+        window.cancelAnimationFrame(raf);
+      }
+    };
+  }, []);
+
   return (
-    <section className="rounded-section relative bg-ochi-gray100">
+    <section className={`rounded-section relative bg-ochi-gray100${isHeroReady ? " contact-hero-ready" : ""}`}>
       <div className="section-shell py-[10rem] lg:py-[14rem]">
         <h1 className="h1 hero-title mb-[6rem] uppercase md:mb-[9rem] lg:mb-[10rem]">
           <span className="hero-title__line hero-title__line--with-image whitespace-nowrap">
-            <span className="hero-inline-image-wrap">
+            <span className="hero-inline-image-wrap contact-hero-inline-image-wrap">
               <LazyRevealImage
                 src={contactHeroData.inlineImage}
                 alt=""

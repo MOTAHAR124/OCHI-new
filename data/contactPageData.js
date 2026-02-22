@@ -21,7 +21,7 @@ function pickContactAsset(patterns, fallback) {
 }
 
 export const contactHeroData = {
-  titleTop: "Let’s start",
+  titleTop: "Let's start",
   titleBottom: "a project together",
   inlineImage: pickContactAsset(
     "Asset-41-20-300x203",

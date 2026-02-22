@@ -20,7 +20,7 @@ export default function AboutCustomCursor() {
     let hoverTarget = null;
 
     const updateHoverState = (event) => {
-      const nextTarget = event.target.closest("[data-cursor]");
+      const nextTarget = event.target instanceof Element ? event.target.closest("[data-cursor]") : null;
       if (nextTarget === hoverTarget) {
         return;
       }

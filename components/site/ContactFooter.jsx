@@ -1,3 +1,4 @@
+import Link from "next/link";
 import OchiLogo from "@/components/site/OchiLogo";
 import RevealInView from "@/components/shared/animation/RevealInView";
 import { footerMenuLinks, officeLocations, socialLinks } from "@/data/siteData";
@@ -102,9 +103,9 @@ export default function ContactFooter() {
         <RevealInView delay={0.1} amount={0.2} offset={24}>
           <div className="grid gap-y-[1.5rem] pt-[1.2rem] md:grid-cols-12 md:items-end lg:pt-[1.6rem]">
             <div className="mb-[3.6rem] md:col-span-5 md:mb-0 lg:col-span-6">
-              <a className="inline-flex" href="#top" aria-label="Back to top">
+              <Link className="inline-flex" href="/">
                 <OchiLogo />
-              </a>
+              </Link>
             </div>
 
             <div className="leading-none text-black/30 md:col-span-4 md:-mr-[3rem] lg:col-span-4">

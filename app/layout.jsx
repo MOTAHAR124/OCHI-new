@@ -1,4 +1,5 @@
 import Header from "@/components/site/Header";
+import RouteTransitionProvider from "@/components/shared/animation/RouteTransitionProvider";
 import SmoothScrollProvider from "@/components/shared/animation/SmoothScrollProvider";
 import "./globals.css";
 
@@ -13,10 +14,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-ochi-bg text-ochi-ink antialiased" suppressHydrationWarning>
         <SmoothScrollProvider>
-          <div id="top" className="relative min-h-screen overflow-x-clip">
-            <Header />
-            <main>{children}</main>
-          </div>
+          <RouteTransitionProvider>
+            <div id="top" className="relative min-h-screen overflow-x-clip">
+              <Header />
+              <main>{children}</main>
+            </div>
+          </RouteTransitionProvider>
         </SmoothScrollProvider>
       </body>
     </html>
