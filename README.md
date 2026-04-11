@@ -30,15 +30,9 @@ npm run start
 GitHub Actions now runs:
 
 - CI on every pull request to `main`
-- CD on every push to `main`
+- CI on every push to `main`
 
-The deploy target is GitHub Pages. To enable it in GitHub:
-
-1. Open the repository settings.
-2. Go to `Settings > Pages`.
-3. Set `Source` to `GitHub Actions`.
-
-After that, pushing to `main` will build and deploy the static `out/` export automatically.
+Deployment is handled separately by Vercel.
 
 ## Download Public Ochi Assets
 
